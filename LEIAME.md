@@ -48,8 +48,8 @@ mudança, só o estado com que todos os ciclos seguintes são comparados.
 | `portal.json` | `portal_url` = `https://dados.recife.pe.gov.br` |
 | `README.md`, `LEIAME.md`, `CITATION.cff` | este texto e a citação deste repositório |
 
-Todo o resto é o código do `5ltep-layer4` no commit `99290ed`
-([99290ed3c340216fe83490ef757f315ec5355be9](https://github.com/lsp3cesarschool/5ltep-layer4/commit/99290ed3c340216fe83490ef757f315ec5355be9)). Os snapshots, os registros de
+Todo o resto é o código do `5ltep-layer4` no commit `bcee2b4`
+([bcee2b4bd7c34a102386d09aed892a02e1fe2fd6](https://github.com/lsp3cesarschool/5ltep-layer4/commit/bcee2b4bd7c34a102386d09aed892a02e1fe2fd6)). Os snapshots, os registros de
 proveniência, o registro de mudanças e os dados do painel são gravados aqui pelos workflows.
 
 ## Como rodar, e como adaptar de novo
