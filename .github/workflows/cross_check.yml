@@ -1,0 +1,65 @@
+name: 5L-TEP Layer 4 Cross-Check
+on:
+  schedule:
+    # Daily, ~3.5 h after the 06:10 monitoring cycle (tolerance: 7 h)
+    - cron: '40 9 * * *'
+  workflow_dispatch:
+
+# Same portal as the monitoring workflow (portal.json)
+env:
+  PYTHON_VERSION: '3.11'
+
+jobs:
+  cross_check:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Run independent cross-check against the monitored portal
+        id: check
+        run: python cross_check.py
+        continue-on-error: true
+
+      - name: Commit cross-check report, dashboard panel and badges
+        run: |
+          git config user.name "5L-TEP L4 Bot"
+          git config user.email "5ltep-l4-bot@users.noreply.github.com"
+          git add data/cross_check_report.json docs/data/
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: cross-check report [$(date -u +%Y-%m-%dT%H:%M:%SZ)]"
+            git pull --rebase --autostash
+            git push
+          fi
+
+      - name: Fail the run on a genuine cross-check problem (ERROR or STALE)
+        if: steps.check.outcome == 'failure'
+        run: |
+          REPORT=data/cross_check_report.json
+          STATUS=$(jq -r '.status' "$REPORT")
+          COVERAGE=$(jq -r '(.coverage_ratio * 100 | round)' "$REPORT")
+          ERRORS=$(jq -r '.errors | length' "$REPORT")
+          AGE=$(jq -r '.snapshot_age_hours' "$REPORT")
+          TOLERANCE=$(jq -r '.monitor_tolerance_hours' "$REPORT")
+          ADDED=$(jq -r '.datasets.added | length' "$REPORT")
+          REMOVED=$(jq -r '.datasets.removed | length' "$REPORT")
+          MODIFIED=$(jq -r '.modified | length' "$REPORT")
+          DIVERGENCES=$((ADDED + REMOVED + MODIFIED))
+
+          if [ "$STATUS" = "ERROR" ]; then
+            echo "::error::Cross-check ERROR — coverage ${COVERAGE}% (${ERRORS} fetch failure(s)), below the 90% threshold. See ${REPORT}."
+          else
+            echo "::error::Cross-check STALE — ${DIVERGENCES} unreconciled divergence(s) (added=${ADDED} removed=${REMOVED} modified=${MODIFIED}); snapshot ${AGE}h old (tolerance ${TOLERANCE}h). See ${REPORT}."
+          fi
+          echo "Details committed to ${REPORT} and the cross-check badge (docs/data)."
+          exit 1
