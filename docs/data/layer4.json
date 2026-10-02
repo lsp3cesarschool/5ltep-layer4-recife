@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-02T16:19:56.042350+00:00",
+ "generated_at": "2026-10-02T22:08:45.174184+00:00",
  "toolkit_version": "1.1.0",
  "repository": "lsp3cesarschool/5ltep-layer4-recife",
  "portal": {
@@ -10,13 +10,13 @@
  },
  "monitoring": {
   "since": "2026-10-02T12:57:26+00:00",
-  "last_cycle": "2026-10-02T16:18:50+00:00",
-  "cycles": 3,
+  "last_cycle": "2026-10-02T22:07:18+00:00",
+  "cycles": 4,
   "cycles_by_day": {
-   "2026-10-02": 3
+   "2026-10-02": 4
   },
-  "cycles_30d": 3,
-  "max_gap_hours_30d": 2.3,
+  "cycles_30d": 4,
+  "max_gap_hours_30d": 5.8,
   "distinct_snapshots": 1
  },
  "totals": {
