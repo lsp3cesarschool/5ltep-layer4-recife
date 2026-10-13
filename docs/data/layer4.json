@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-13T14:05:11.032893+00:00",
+ "generated_at": "2026-10-13T22:39:30.752543+00:00",
  "toolkit_version": "1.1.0",
  "repository": "lsp3cesarschool/5ltep-layer4-recife",
  "portal": {
@@ -10,8 +10,8 @@
  },
  "monitoring": {
   "since": "2026-10-02T12:57:26+00:00",
-  "last_cycle": "2026-10-13T14:03:58+00:00",
-  "cycles": 35,
+  "last_cycle": "2026-10-13T22:38:15+00:00",
+  "cycles": 36,
   "cycles_by_day": {
    "2026-10-02": 4,
    "2026-10-03": 4,
@@ -24,30 +24,45 @@
    "2026-10-10": 3,
    "2026-10-11": 3,
    "2026-10-12": 2,
-   "2026-10-13": 2
+   "2026-10-13": 3
   },
-  "cycles_30d": 35,
+  "cycles_30d": 36,
   "max_gap_hours_30d": 13.5,
-  "distinct_snapshots": 3,
+  "distinct_snapshots": 4,
   "failures": [],
   "failures_by_category": {},
   "unread_last_cycle": []
  },
  "totals": {
   "datasets": 223,
-  "resources": 1624,
+  "resources": 1625,
   "organizations": 32,
-  "prov_events": 3,
-  "prov_records": 3,
-  "critical": 0,
-  "datasets_changed": 3,
+  "prov_events": 4,
+  "prov_records": 4,
+  "critical": 1,
+  "datasets_changed": 4,
   "by_type": {
+   "SCHEMA_DRIFT": 1,
    "NEW": 1,
    "REMOVED": 1,
    "CONTENT_MOD": 3
   }
  },
  "events": [
+  {
+   "when": "2026-10-13T22:38:15+00:00",
+   "type": "SCHEMA_DRIFT",
+   "severity": "CRITICAL",
+   "dataset_id": "077c537f-49ef-47e6-b2bf-410f971dcd68",
+   "name": "conecta-recife",
+   "title": "Conecta Recife Wifi",
+   "summary": "1 resource(s) added; resource renamed; resource descriptions edited",
+   "summary_pt": "1 recurso(s) adicionado(s); recurso renomeado; descrições dos recursos editadas",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": "077c537f-49ef-47e6-b2bf-410f971dcd68.jsonld"
+  },
   {
    "when": "2026-10-03T21:08:16+00:00",
    "type": "NEW",
@@ -120,6 +135,19 @@
   }
  ],
  "datasets": [
+  {
+   "id": "077c537f-49ef-47e6-b2bf-410f971dcd68",
+   "name": "conecta-recife",
+   "title": "Conecta Recife Wifi",
+   "organization": "Emprel",
+   "resources": 5,
+   "metadata_modified": "2026-10-13T19:02:16.749885",
+   "prov_records": 1,
+   "prov_log": "077c537f-49ef-47e6-b2bf-410f971dcd68.jsonld",
+   "changes": 1,
+   "last_change": "2026-10-13T22:38:15+00:00",
+   "last_type": "SCHEMA_DRIFT"
+  },
   {
    "id": "b285acc0-aafa-42e5-8dba-f2878de3acea",
    "name": "outorga-onerosa-do-direito-de-construir",
@@ -2305,19 +2333,6 @@
    "last_type": null
   },
   {
-   "id": "077c537f-49ef-47e6-b2bf-410f971dcd68",
-   "name": "conecta-recife",
-   "title": "Conecta Recife Wifi",
-   "organization": "Emprel",
-   "resources": 4,
-   "metadata_modified": "2026-09-15T13:33:31.878608",
-   "prov_records": 0,
-   "prov_log": null,
-   "changes": 0,
-   "last_change": null,
-   "last_type": null
-  },
-  {
    "id": "4eff8deb-49df-47b5-9b6b-096071f309d3",
    "name": "cobertura-da-terra",
    "title": "Cobertura da Terra",
@@ -3021,7 +3036,8 @@
   }
  ],
  "hosts_now": {
-  "dados.recife.pe.gov.br:443": 1624
+  "dados.recife.pe.gov.br:443": 1624,
+  "dados.recife.pe.gov.br": 1
  },
  "urls_without_host": [],
  "relocations": [],
