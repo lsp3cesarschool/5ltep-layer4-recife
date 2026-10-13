@@ -1,12 +1,11 @@
-# 5LTEP-L4 · instância Recife (experimento de controle)
+# 5LTEP-L4 · instância Recife (aplicação em outro contexto)
 
 [![Tests](https://github.com/lsp3cesarschool/5ltep-layer4-recife/actions/workflows/tests.yml/badge.svg)](https://github.com/lsp3cesarschool/5ltep-layer4-recife/actions/workflows/tests.yml) [![Layer 4](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flsp3cesarschool%2F5ltep-layer4-recife%2Fmain%2Fdocs%2Fdata%2Fstatus.pt.json)](https://github.com/lsp3cesarschool/5ltep-layer4-recife/actions/workflows/monitor.yml) [![Cross-check](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flsp3cesarschool%2F5ltep-layer4-recife%2Fmain%2Fdocs%2Fdata%2Fstatus-cross-check.pt.json)](https://github.com/lsp3cesarschool/5ltep-layer4-recife/actions/workflows/cross_check.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 [English](README.md) · **Português**
 
 **Camada 4 do 5L-TEP (observabilidade e proveniência) aplicada ao portal de dados abertos da Prefeitura do Recife:
-outra instância do [5ltep-layer4](https://github.com/lsp3cesarschool/5ltep-layer4), montada pelo autor como caso de controle do
-estudo do IBAMA.**
+outra instância do [5ltep-layer4](https://github.com/lsp3cesarschool/5ltep-layer4), montada pelo autor como aplicação do mesmo sistema em outro contexto.**
 
 | Recurso | O que você encontra lá |
 |---|---|
@@ -14,7 +13,7 @@ estudo do IBAMA.**
 | 📄 **Registro de mudanças** | [`changes.md`](changes.md) (em inglês): cada mudança detectada em palavras simples, reconstruído a cada ciclo |
 | 🔗 **Registros de proveniência** | [`provenance_logs/`](provenance_logs/): uma cadeia W3C PROV-DM (JSON-LD) somente por acréscimo, por conjunto |
 | 🏛️ **Instância principal** | [5ltep-layer4](https://github.com/lsp3cesarschool/5ltep-layer4): IBAMA, e a documentação completa |
-| 🔁 **Outro controle** | [5ltep-layer4-aneel](https://github.com/lsp3cesarschool/5ltep-layer4-aneel): o portal da ANEEL |
+| 🔁 **Outra aplicação** | [5ltep-layer4-aneel](https://github.com/lsp3cesarschool/5ltep-layer4-aneel): o portal da ANEEL |
 
 > **Situação: demonstração de pesquisa.** Este repositório não é operado, afiliado ou endossado pela Prefeitura do Recife nem pela EMPREL; ele apenas lê os dados abertos da cidade. Ele mostra que o kit pode ser
 > reutilizado em outro portal e não pressupõe que o publicador vá revisar seus resultados ou adotá-lo.
@@ -32,7 +31,9 @@ registra cada mudança como uma entidade W3C PROV-DM ligada à versão anterior,
 prefeitura como custodiante, para que qualquer pessoa veja quando um conjunto mudou, como, e se a
 mudança foi datada.
 
-## Por que um experimento de controle
+## Por que aplicar o sistema em outro contexto
+
+Esta instância demonstra a reutilização do mesmo sistema em outro contexto e permite avaliar os limites dessa transferência.
 
 O kit da Camada 4 foi construído e avaliado no portal do IBAMA. O Recife é um município, com outra equipe e outros hábitos de publicação
 (cerca de 220 conjuntos, o maior dos três portais; um ciclo leva cerca de um minuto). Este repositório roda **o mesmo código**, seguindo os passos de *Monitorando outro
@@ -48,8 +49,8 @@ mudança, só o estado com que todos os ciclos seguintes são comparados.
 | `portal.json` | `portal_url` = `https://dados.recife.pe.gov.br` |
 | `README.md`, `LEIAME.md`, `CITATION.cff` | este texto e a citação deste repositório |
 
-Todo o resto é o código do `5ltep-layer4` no commit `a011ec3`
-([a011ec3bf9ec7db0f51e526bb4343efa72be2555](https://github.com/lsp3cesarschool/5ltep-layer4/commit/a011ec3bf9ec7db0f51e526bb4343efa72be2555)). Os snapshots, os registros de
+Todo o resto é o código do `5ltep-layer4` no commit `a081c64`
+([a081c643b2afef811269697bc5fff6d208e1707a](https://github.com/lsp3cesarschool/5ltep-layer4/commit/a081c643b2afef811269697bc5fff6d208e1707a)). Os snapshots, os registros de
 proveniência, o registro de mudanças e os dados do painel são gravados aqui pelos workflows.
 
 ## Como rodar, e como adaptar de novo

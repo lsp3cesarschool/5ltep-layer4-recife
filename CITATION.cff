@@ -12,7 +12,7 @@ abstract: >-
   dual-agent model (observer and data custodian). A daily independent
   cross-check, a static dashboard and status badges publish the results. One
   value (the portal URL in portal.json) adapts it to another CKAN portal; this
-  repository is the instance for https://dados.recife.pe.gov.br, a control case of the IBAMA study.
+  repository is the instance for https://dados.recife.pe.gov.br, an application of the same system in another context.
 type: software
 authors:
   - family-names: Pinheiro
