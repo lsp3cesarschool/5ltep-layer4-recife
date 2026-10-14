@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-14T11:43:52.493463+00:00",
+ "generated_at": "2026-10-14T17:04:05.576887+00:00",
  "toolkit_version": "1.1.0",
  "repository": "lsp3cesarschool/5ltep-layer4-recife",
  "portal": {
@@ -10,8 +10,8 @@
  },
  "monitoring": {
   "since": "2026-10-02T12:57:26+00:00",
-  "last_cycle": "2026-10-14T11:42:46+00:00",
-  "cycles": 38,
+  "last_cycle": "2026-10-14T17:02:55+00:00",
+  "cycles": 39,
   "cycles_by_day": {
    "2026-10-02": 4,
    "2026-10-03": 4,
@@ -25,11 +25,11 @@
    "2026-10-11": 3,
    "2026-10-12": 2,
    "2026-10-13": 3,
-   "2026-10-14": 2
+   "2026-10-14": 3
   },
-  "cycles_30d": 38,
+  "cycles_30d": 39,
   "max_gap_hours_30d": 13.5,
-  "distinct_snapshots": 4,
+  "distinct_snapshots": 5,
   "failures": [
    {
     "run_id": 38479092729,
@@ -48,19 +48,61 @@
  "totals": {
   "datasets": 223,
   "resources": 1625,
-  "organizations": 32,
-  "prov_events": 4,
-  "prov_records": 4,
+  "organizations": 33,
+  "prov_events": 7,
+  "prov_records": 7,
   "critical": 1,
-  "datasets_changed": 4,
+  "datasets_changed": 7,
   "by_type": {
+   "CONTENT_MOD": 6,
    "SCHEMA_DRIFT": 1,
    "NEW": 1,
-   "REMOVED": 1,
-   "CONTENT_MOD": 3
+   "REMOVED": 1
   }
  },
  "events": [
+  {
+   "when": "2026-10-14T17:02:55+00:00",
+   "type": "CONTENT_MOD",
+   "severity": "WARNING",
+   "dataset_id": "f79dbcdf-ec99-4f4c-9b84-b33175c35528",
+   "name": "licenciamento-urbanistico",
+   "title": "Licenciamento Urbanístico",
+   "summary": "Description edited; license title changed",
+   "summary_pt": "Descrição editada; título da licença alterado",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": "f79dbcdf-ec99-4f4c-9b84-b33175c35528.jsonld"
+  },
+  {
+   "when": "2026-10-14T17:02:55+00:00",
+   "type": "CONTENT_MOD",
+   "severity": "WARNING",
+   "dataset_id": "8535916b-588f-4006-bb1a-5d9c587a92d7",
+   "name": "licenciamento-sanitario",
+   "title": "Licenciamento Sanitário",
+   "summary": "Description edited; license title changed",
+   "summary_pt": "Descrição editada; título da licença alterado",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": "8535916b-588f-4006-bb1a-5d9c587a92d7.jsonld"
+  },
+  {
+   "when": "2026-10-14T17:02:55+00:00",
+   "type": "CONTENT_MOD",
+   "severity": "WARNING",
+   "dataset_id": "75869ab7-ccce-40d6-aed6-4afca4c8cc82",
+   "name": "licenciamento-ambiental",
+   "title": "Licenciamento Ambiental",
+   "summary": "Description edited; license title changed",
+   "summary_pt": "Descrição editada; título da licença alterado",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": "75869ab7-ccce-40d6-aed6-4afca4c8cc82.jsonld"
+  },
   {
    "when": "2026-10-13T22:38:15+00:00",
    "type": "SCHEMA_DRIFT",
@@ -147,6 +189,45 @@
   }
  ],
  "datasets": [
+  {
+   "id": "f79dbcdf-ec99-4f4c-9b84-b33175c35528",
+   "name": "licenciamento-urbanistico",
+   "title": "Licenciamento Urbanístico",
+   "organization": "Secretaria de Desenvolvimento Urbano e Licenciamento - SEDUL",
+   "resources": 2,
+   "metadata_modified": "2026-10-14T14:46:47.175528",
+   "prov_records": 1,
+   "prov_log": "f79dbcdf-ec99-4f4c-9b84-b33175c35528.jsonld",
+   "changes": 1,
+   "last_change": "2026-10-14T17:02:55+00:00",
+   "last_type": "CONTENT_MOD"
+  },
+  {
+   "id": "8535916b-588f-4006-bb1a-5d9c587a92d7",
+   "name": "licenciamento-sanitario",
+   "title": "Licenciamento Sanitário",
+   "organization": "Secretaria de Saúde",
+   "resources": 2,
+   "metadata_modified": "2026-10-14T14:44:45.750219",
+   "prov_records": 1,
+   "prov_log": "8535916b-588f-4006-bb1a-5d9c587a92d7.jsonld",
+   "changes": 1,
+   "last_change": "2026-10-14T17:02:55+00:00",
+   "last_type": "CONTENT_MOD"
+  },
+  {
+   "id": "75869ab7-ccce-40d6-aed6-4afca4c8cc82",
+   "name": "licenciamento-ambiental",
+   "title": "Licenciamento Ambiental",
+   "organization": "Secretaria de Desenvolvimento Urbano e Licenciamento - SEDUL",
+   "resources": 2,
+   "metadata_modified": "2026-10-14T16:21:31.609810",
+   "prov_records": 1,
+   "prov_log": "75869ab7-ccce-40d6-aed6-4afca4c8cc82.jsonld",
+   "changes": 1,
+   "last_change": "2026-10-14T17:02:55+00:00",
+   "last_type": "CONTENT_MOD"
+  },
   {
    "id": "077c537f-49ef-47e6-b2bf-410f971dcd68",
    "name": "conecta-recife",
@@ -1740,45 +1821,6 @@
    "organization": "Secretaria de Administração e Gestão de Pessoas",
    "resources": 4,
    "metadata_modified": "2026-03-02T15:22:55.277015",
-   "prov_records": 0,
-   "prov_log": null,
-   "changes": 0,
-   "last_change": null,
-   "last_type": null
-  },
-  {
-   "id": "f79dbcdf-ec99-4f4c-9b84-b33175c35528",
-   "name": "licenciamento-urbanistico",
-   "title": "Licenciamento Urbanístico",
-   "organization": "Secretaria de Política Urbana e Licenciamento",
-   "resources": 2,
-   "metadata_modified": "2026-06-17T11:59:59.062103",
-   "prov_records": 0,
-   "prov_log": null,
-   "changes": 0,
-   "last_change": null,
-   "last_type": null
-  },
-  {
-   "id": "8535916b-588f-4006-bb1a-5d9c587a92d7",
-   "name": "licenciamento-sanitario",
-   "title": "Licenciamento Sanitário",
-   "organization": "Secretaria de Saúde",
-   "resources": 2,
-   "metadata_modified": "2026-06-17T11:59:37.053223",
-   "prov_records": 0,
-   "prov_log": null,
-   "changes": 0,
-   "last_change": null,
-   "last_type": null
-  },
-  {
-   "id": "75869ab7-ccce-40d6-aed6-4afca4c8cc82",
-   "name": "licenciamento-ambiental",
-   "title": "Licenciamento Ambiental",
-   "organization": "Secretaria de Meio Ambiente e Sustentabilidade",
-   "resources": 2,
-   "metadata_modified": "2026-06-17T11:58:42.548491",
    "prov_records": 0,
    "prov_log": null,
    "changes": 0,

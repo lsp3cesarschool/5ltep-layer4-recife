@@ -1,0 +1,105 @@
+{
+  "@context": {
+    "prov": "http://www.w3.org/ns/prov#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "5ltep": "https://5ltep.example.org/ontology#",
+    "ckan": "https://ckan.org/schema#",
+    "portal": "https://dados.recife.pe.gov.br/"
+  },
+  "5ltep:datasetId": "75869ab7-ccce-40d6-aed6-4afca4c8cc82",
+  "5ltep:portalUrl": "https://dados.recife.pe.gov.br",
+  "provenance_chain": [
+    {
+      "@context": {
+        "prov": "http://www.w3.org/ns/prov#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "5ltep": "https://5ltep.example.org/ontology#",
+        "ckan": "https://ckan.org/schema#",
+        "portal": "https://dados.recife.pe.gov.br/"
+      },
+      "@graph": [
+        {
+          "@id": "https://dados.recife.pe.gov.br/dataset/75869ab7-ccce-40d6-aed6-4afca4c8cc82#3ab2b929a417",
+          "@type": [
+            "prov:Entity",
+            "5ltep:DatasetSnapshot"
+          ],
+          "prov:wasGeneratedBy": {
+            "@id": "5ltep:run-20261014T170404Z"
+          },
+          "5ltep:changeType": "CONTENT_MOD",
+          "5ltep:severity": "WARNING",
+          "5ltep:datasetId": "75869ab7-ccce-40d6-aed6-4afca4c8cc82",
+          "5ltep:contentHash": "3ab2b929a41718518dec8bdd05e5ea31f4f7837986486466d73f9faecd71d157",
+          "5ltep:detectedAt": {
+            "@value": "2026-10-14T17:04:04.462559+00:00",
+            "@type": "xsd:dateTime"
+          },
+          "prov:wasAttributedTo": {
+            "@id": "https://dados.recife.pe.gov.br/organization/secretaria-de-planejamento-urbano"
+          },
+          "prov:wasDerivedFrom": {
+            "@id": "https://dados.recife.pe.gov.br/dataset/75869ab7-ccce-40d6-aed6-4afca4c8cc82#b5d002fb20b5"
+          },
+          "5ltep:changeSummary": "Description edited; license title changed",
+          "5ltep:changedFields": [
+            "notes",
+            "metadata_modified"
+          ],
+          "5ltep:fieldsOutsideFingerprint": [
+            "author",
+            "license_title",
+            "organization",
+            "owner_org",
+            "url"
+          ],
+          "5ltep:resourceUrlChanges": 0,
+          "5ltep:hostMoves": 0,
+          "5ltep:packagingChanges": 0
+        },
+        {
+          "@id": "5ltep:run-20261014T170404Z",
+          "@type": [
+            "prov:Activity",
+            "5ltep:MonitoringRun"
+          ],
+          "prov:startedAtTime": {
+            "@value": "2026-10-14T17:04:04.469867+00:00",
+            "@type": "xsd:dateTime"
+          },
+          "prov:endedAtTime": {
+            "@value": "2026-10-14T17:04:04.470004+00:00",
+            "@type": "xsd:dateTime"
+          },
+          "prov:wasAssociatedWith": {
+            "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-recife@0a54d2e"
+          },
+          "prov:used": {
+            "@id": "https://dados.recife.pe.gov.br/api/3/action/package_show?id=75869ab7-ccce-40d6-aed6-4afca4c8cc82"
+          }
+        },
+        {
+          "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-recife@0a54d2e",
+          "@type": [
+            "prov:Agent",
+            "prov:SoftwareAgent"
+          ],
+          "rdfs:label": "5L-TEP Toolkit v1.1.0 (Layer 4 — Observability & Provenance)",
+          "5ltep:repositoryUrl": "https://github.com/lsp3cesarschool/5ltep-layer4-recife",
+          "5ltep:commitSha": "0a54d2eac7c49f032b8007ddec375e005a77b74d"
+        },
+        {
+          "@id": "https://dados.recife.pe.gov.br/organization/secretaria-de-planejamento-urbano",
+          "@type": [
+            "prov:Agent",
+            "5ltep:DataCustodian"
+          ],
+          "rdfs:label": "secretaria-de-planejamento-urbano",
+          "5ltep:portalUrl": "https://dados.recife.pe.gov.br"
+        }
+      ]
+    }
+  ]
+}
