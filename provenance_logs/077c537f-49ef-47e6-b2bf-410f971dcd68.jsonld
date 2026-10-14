@@ -101,6 +101,96 @@
           "5ltep:portalUrl": "https://dados.recife.pe.gov.br"
         }
       ]
+    },
+    {
+      "@context": {
+        "prov": "http://www.w3.org/ns/prov#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "5ltep": "https://5ltep.example.org/ontology#",
+        "ckan": "https://ckan.org/schema#",
+        "portal": "https://dados.recife.pe.gov.br/"
+      },
+      "@graph": [
+        {
+          "@id": "https://dados.recife.pe.gov.br/dataset/077c537f-49ef-47e6-b2bf-410f971dcd68#24f151e312a3",
+          "@type": [
+            "prov:Entity",
+            "5ltep:DatasetSnapshot"
+          ],
+          "prov:wasGeneratedBy": {
+            "@id": "5ltep:run-20261014T213705Z"
+          },
+          "5ltep:changeType": "CONTENT_MOD",
+          "5ltep:severity": "WARNING",
+          "5ltep:datasetId": "077c537f-49ef-47e6-b2bf-410f971dcd68",
+          "5ltep:contentHash": "24f151e312a3908872adf0eaef028c283fce75467dc8428954d3aac4ef2123de",
+          "5ltep:detectedAt": {
+            "@value": "2026-10-14T21:37:05.991834+00:00",
+            "@type": "xsd:dateTime"
+          },
+          "prov:wasAttributedTo": {
+            "@id": "https://dados.recife.pe.gov.br/organization/emprel"
+          },
+          "prov:wasDerivedFrom": {
+            "@id": "https://dados.recife.pe.gov.br/dataset/077c537f-49ef-47e6-b2bf-410f971dcd68#abe0f13b9d09"
+          },
+          "5ltep:changeSummary": "1 resource URL(s) changed (1 moved from dados.recife.pe.gov.br to dados.recife.pe.gov.br:443); file size updated; file date updated",
+          "5ltep:changedFields": [
+            "metadata_modified",
+            "resource.url",
+            "resource.size",
+            "resource.last_modified"
+          ],
+          "5ltep:fieldsOutsideFingerprint": [
+            "resource.mimetype",
+            "resource.url_type"
+          ],
+          "5ltep:resourceUrlChanges": 1,
+          "5ltep:hostMoves": 1,
+          "5ltep:packagingChanges": 0
+        },
+        {
+          "@id": "5ltep:run-20261014T213705Z",
+          "@type": [
+            "prov:Activity",
+            "5ltep:MonitoringRun"
+          ],
+          "prov:startedAtTime": {
+            "@value": "2026-10-14T21:37:05.999135+00:00",
+            "@type": "xsd:dateTime"
+          },
+          "prov:endedAtTime": {
+            "@value": "2026-10-14T21:37:05.999190+00:00",
+            "@type": "xsd:dateTime"
+          },
+          "prov:wasAssociatedWith": {
+            "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-recife@06626b5"
+          },
+          "prov:used": {
+            "@id": "https://dados.recife.pe.gov.br/api/3/action/package_show?id=077c537f-49ef-47e6-b2bf-410f971dcd68"
+          }
+        },
+        {
+          "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-recife@06626b5",
+          "@type": [
+            "prov:Agent",
+            "prov:SoftwareAgent"
+          ],
+          "rdfs:label": "5L-TEP Toolkit v1.1.0 (Layer 4 — Observability & Provenance)",
+          "5ltep:repositoryUrl": "https://github.com/lsp3cesarschool/5ltep-layer4-recife",
+          "5ltep:commitSha": "06626b5f2d3a9c89be12ae6ce43f7abf0b7244de"
+        },
+        {
+          "@id": "https://dados.recife.pe.gov.br/organization/emprel",
+          "@type": [
+            "prov:Agent",
+            "5ltep:DataCustodian"
+          ],
+          "rdfs:label": "emprel",
+          "5ltep:portalUrl": "https://dados.recife.pe.gov.br"
+        }
+      ]
     }
   ]
 }
