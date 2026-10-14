@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-13T22:39:30.752543+00:00",
+ "generated_at": "2026-10-14T04:45:13.262446+00:00",
  "toolkit_version": "1.1.0",
  "repository": "lsp3cesarschool/5ltep-layer4-recife",
  "portal": {
@@ -10,8 +10,8 @@
  },
  "monitoring": {
   "since": "2026-10-02T12:57:26+00:00",
-  "last_cycle": "2026-10-13T22:38:15+00:00",
-  "cycles": 36,
+  "last_cycle": "2026-10-14T04:44:08+00:00",
+  "cycles": 37,
   "cycles_by_day": {
    "2026-10-02": 4,
    "2026-10-03": 4,
@@ -24,13 +24,25 @@
    "2026-10-10": 3,
    "2026-10-11": 3,
    "2026-10-12": 2,
-   "2026-10-13": 3
+   "2026-10-13": 3,
+   "2026-10-14": 1
   },
-  "cycles_30d": 36,
+  "cycles_30d": 37,
   "max_gap_hours_30d": 13.5,
   "distinct_snapshots": 4,
-  "failures": [],
-  "failures_by_category": {},
+  "failures": [
+   {
+    "run_id": 38479092729,
+    "when": "2026-10-13T22:38:06+00:00",
+    "category": "unknown",
+    "detail": "step: Alert on CRITICAL schema change (SCHEMA_DRIFT / RETRO_ALTER)",
+    "step": "Alert on CRITICAL schema change (SCHEMA_DRIFT / RETRO_ALTER)",
+    "source": "actions"
+   }
+  ],
+  "failures_by_category": {
+   "unknown": 1
+  },
   "unread_last_cycle": []
  },
  "totals": {
