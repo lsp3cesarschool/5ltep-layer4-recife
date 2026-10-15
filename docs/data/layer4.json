@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-15T16:54:31.565595+00:00",
+ "generated_at": "2026-10-15T21:18:52.873361+00:00",
  "toolkit_version": "1.1.0",
  "repository": "lsp3cesarschool/5ltep-layer4-recife",
  "portal": {
@@ -10,8 +10,8 @@
  },
  "monitoring": {
   "since": "2026-10-02T12:57:26+00:00",
-  "last_cycle": "2026-10-15T16:51:57+00:00",
-  "cycles": 43,
+  "last_cycle": "2026-10-15T21:17:31+00:00",
+  "cycles": 44,
   "cycles_by_day": {
    "2026-10-02": 4,
    "2026-10-03": 4,
@@ -26,12 +26,20 @@
    "2026-10-12": 2,
    "2026-10-13": 3,
    "2026-10-14": 4,
-   "2026-10-15": 3
+   "2026-10-15": 4
   },
-  "cycles_30d": 43,
+  "cycles_30d": 44,
   "max_gap_hours_30d": 13.5,
-  "distinct_snapshots": 7,
+  "distinct_snapshots": 8,
   "failures": [
+   {
+    "run_id": 38772503707,
+    "when": "2026-10-15T16:51:43+00:00",
+    "category": "unknown",
+    "detail": "step: Alert on CRITICAL schema change (SCHEMA_DRIFT / RETRO_ALTER)",
+    "step": "Alert on CRITICAL schema change (SCHEMA_DRIFT / RETRO_ALTER)",
+    "source": "actions"
+   },
    {
     "run_id": 38479092729,
     "when": "2026-10-13T22:38:06+00:00",
@@ -42,26 +50,46 @@
    }
   ],
   "failures_by_category": {
-   "unknown": 1
+   "unknown": 2
   },
   "unread_last_cycle": []
  },
  "totals": {
   "datasets": 223,
-  "resources": 1627,
+  "resources": 1626,
   "organizations": 33,
-  "prov_events": 10,
-  "prov_records": 10,
-  "critical": 2,
+  "prov_events": 11,
+  "prov_records": 11,
+  "critical": 3,
   "datasets_changed": 7,
   "by_type": {
+   "SCHEMA_DRIFT": 3,
    "CONTENT_MOD": 8,
-   "SCHEMA_DRIFT": 2,
    "NEW": 1,
    "REMOVED": 1
   }
  },
  "events": [
+  {
+   "when": "2026-10-15T21:17:31+00:00",
+   "type": "SCHEMA_DRIFT",
+   "severity": "CRITICAL",
+   "dataset_id": "077c537f-49ef-47e6-b2bf-410f971dcd68",
+   "name": "conecta-recife",
+   "title": "Conecta Recife Wifi",
+   "summary": "1 resource(s) added; 2 resource(s) removed; 1 resource URL(s) changed (1 moved from dados.recife.pe.gov.br to dados.recife.pe.gov.br:443); file size updated; file date updated",
+   "summary_pt": "1 recurso(s) adicionado(s); 2 recurso(s) removido(s); 1 URL(s) de recurso alterada(s) (1 movida(s) de dados.recife.pe.gov.br para dados.recife.pe.gov.br:443); tamanho do arquivo atualizado; data do arquivo atualizada",
+   "host_pairs": [
+    [
+     "dados.recife.pe.gov.br",
+     "dados.recife.pe.gov.br:443",
+     1
+    ]
+   ],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": "077c537f-49ef-47e6-b2bf-410f971dcd68.jsonld"
+  },
   {
    "when": "2026-10-15T16:51:57+00:00",
    "type": "CONTENT_MOD",
@@ -239,6 +267,19 @@
  ],
  "datasets": [
   {
+   "id": "077c537f-49ef-47e6-b2bf-410f971dcd68",
+   "name": "conecta-recife",
+   "title": "Conecta Recife Wifi",
+   "organization": "Emprel",
+   "resources": 6,
+   "metadata_modified": "2026-10-15T18:24:07.763385",
+   "prov_records": 4,
+   "prov_log": "077c537f-49ef-47e6-b2bf-410f971dcd68.jsonld",
+   "changes": 4,
+   "last_change": "2026-10-15T21:17:31+00:00",
+   "last_type": "SCHEMA_DRIFT"
+  },
+  {
    "id": "75869ab7-ccce-40d6-aed6-4afca4c8cc82",
    "name": "licenciamento-ambiental",
    "title": "Licenciamento Ambiental",
@@ -250,19 +291,6 @@
    "changes": 2,
    "last_change": "2026-10-15T16:51:57+00:00",
    "last_type": "CONTENT_MOD"
-  },
-  {
-   "id": "077c537f-49ef-47e6-b2bf-410f971dcd68",
-   "name": "conecta-recife",
-   "title": "Conecta Recife Wifi",
-   "organization": "Emprel",
-   "resources": 7,
-   "metadata_modified": "2026-10-15T16:47:46.298180",
-   "prov_records": 3,
-   "prov_log": "077c537f-49ef-47e6-b2bf-410f971dcd68.jsonld",
-   "changes": 3,
-   "last_change": "2026-10-15T16:51:57+00:00",
-   "last_type": "SCHEMA_DRIFT"
   },
   {
    "id": "f79dbcdf-ec99-4f4c-9b84-b33175c35528",
@@ -3139,18 +3167,17 @@
   }
  ],
  "hosts_now": {
-  "dados.recife.pe.gov.br:443": 1626,
-  "dados.recife.pe.gov.br": 1
+  "dados.recife.pe.gov.br:443": 1626
  },
  "urls_without_host": [],
  "relocations": [
   {
    "from": "dados.recife.pe.gov.br",
    "to": "dados.recife.pe.gov.br:443",
-   "urls": 1,
-   "events": 1,
+   "urls": 2,
+   "events": 2,
    "datasets": 1,
-   "last": "2026-10-14T21:36:03+00:00"
+   "last": "2026-10-15T21:17:31+00:00"
   }
  ],
  "packaging": {

@@ -7,9 +7,9 @@ first monitoring cycle that saw the change).
 
 - **Monitored since:** 2026-10-02
 - **Datasets in the latest snapshot:** 223
-- **Changes recorded as PROV events:** 10 (2 critical)
+- **Changes recorded as PROV events:** 11 (3 critical)
 - **New datasets:** 1
-- **Last change detected:** 2026-10-15 16:51 UTC
+- **Last change detected:** 2026-10-15 21:17 UTC
 
 Types: `CONTENT_MOD` (content changed with a new timestamp), `SCHEMA_DRIFT`
 (resources added, removed, renamed or re-formatted; critical), `RETRO_ALTER`
@@ -20,12 +20,13 @@ Types: `CONTENT_MOD` (content changed with a new timestamp), `SCHEMA_DRIFT`
 
 | Month | PROV events | Critical | New datasets |
 |---|---:|---:|---:|
-| 2026-10 | 10 | 2 | 1 |
+| 2026-10 | 11 | 3 | 1 |
 
 ## Latest changes
 
 | Detected (UTC) | Dataset | Type | What changed | Provenance |
 |---|---|---|---|---|
+| 2026-10-15 21:17 | [Conecta Recife Wifi](https://dados.recife.pe.gov.br/dataset/conecta-recife) | `SCHEMA_DRIFT` | 1 resource(s) added; 2 resource(s) removed; 1 resource URL(s) changed (1 moved from dados.recife.pe.gov.br to dados.recife.pe.gov.br:443); file size updated; file date updated | [log](provenance_logs/077c537f-49ef-47e6-b2bf-410f971dcd68.jsonld) |
 | 2026-10-15 16:51 | [Licenciamento Ambiental](https://dados.recife.pe.gov.br/dataset/licenciamento-ambiental) | `CONTENT_MOD` | Resource descriptions edited | [log](provenance_logs/75869ab7-ccce-40d6-aed6-4afca4c8cc82.jsonld) |
 | 2026-10-15 16:51 | [Conecta Recife Wifi](https://dados.recife.pe.gov.br/dataset/conecta-recife) | `SCHEMA_DRIFT` | 2 resource(s) added; file date updated | [log](provenance_logs/077c537f-49ef-47e6-b2bf-410f971dcd68.jsonld) |
 | 2026-10-14 21:36 | [Conecta Recife Wifi](https://dados.recife.pe.gov.br/dataset/conecta-recife) | `CONTENT_MOD` | 1 resource URL(s) changed (1 moved from dados.recife.pe.gov.br to dados.recife.pe.gov.br:443); file size updated; file date updated | [log](provenance_logs/077c537f-49ef-47e6-b2bf-410f971dcd68.jsonld) |
