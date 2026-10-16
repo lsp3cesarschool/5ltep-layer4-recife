@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-16T16:33:55.956645+00:00",
+ "generated_at": "2026-10-16T20:59:45.247899+00:00",
  "toolkit_version": "1.1.0",
  "repository": "lsp3cesarschool/5ltep-layer4-recife",
  "portal": {
@@ -10,8 +10,8 @@
  },
  "monitoring": {
   "since": "2026-10-02T12:57:26+00:00",
-  "last_cycle": "2026-10-16T16:32:32+00:00",
-  "cycles": 47,
+  "last_cycle": "2026-10-16T20:58:24+00:00",
+  "cycles": 48,
   "cycles_by_day": {
    "2026-10-02": 4,
    "2026-10-03": 4,
@@ -27,11 +27,11 @@
    "2026-10-13": 3,
    "2026-10-14": 4,
    "2026-10-15": 4,
-   "2026-10-16": 3
+   "2026-10-16": 4
   },
-  "cycles_30d": 47,
+  "cycles_30d": 48,
   "max_gap_hours_30d": 13.5,
-  "distinct_snapshots": 8,
+  "distinct_snapshots": 9,
   "failures": [
    {
     "run_id": 38808713858,
@@ -67,18 +67,32 @@
   "datasets": 223,
   "resources": 1626,
   "organizations": 33,
-  "prov_events": 11,
-  "prov_records": 11,
+  "prov_events": 12,
+  "prov_records": 12,
   "critical": 3,
   "datasets_changed": 7,
   "by_type": {
+   "CONTENT_MOD": 9,
    "SCHEMA_DRIFT": 3,
-   "CONTENT_MOD": 8,
    "NEW": 1,
    "REMOVED": 1
   }
  },
  "events": [
+  {
+   "when": "2026-10-16T20:58:24+00:00",
+   "type": "CONTENT_MOD",
+   "severity": "WARNING",
+   "dataset_id": "077c537f-49ef-47e6-b2bf-410f971dcd68",
+   "name": "conecta-recife",
+   "title": "Conecta Recife Wifi",
+   "summary": "Description edited",
+   "summary_pt": "Descrição editada",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": "077c537f-49ef-47e6-b2bf-410f971dcd68.jsonld"
+  },
   {
    "when": "2026-10-15T21:17:31+00:00",
    "type": "SCHEMA_DRIFT",
@@ -281,12 +295,12 @@
    "title": "Conecta Recife Wifi",
    "organization": "Emprel",
    "resources": 6,
-   "metadata_modified": "2026-10-15T18:24:07.763385",
-   "prov_records": 4,
+   "metadata_modified": "2026-10-16T19:11:10.504945",
+   "prov_records": 5,
    "prov_log": "077c537f-49ef-47e6-b2bf-410f971dcd68.jsonld",
-   "changes": 4,
-   "last_change": "2026-10-15T21:17:31+00:00",
-   "last_type": "SCHEMA_DRIFT"
+   "changes": 5,
+   "last_change": "2026-10-16T20:58:24+00:00",
+   "last_type": "CONTENT_MOD"
   },
   {
    "id": "75869ab7-ccce-40d6-aed6-4afca4c8cc82",
