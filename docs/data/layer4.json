@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-20T16:55:22.836158+00:00",
+ "generated_at": "2026-10-20T21:35:33.187466+00:00",
  "toolkit_version": "1.1.0",
  "repository": "lsp3cesarschool/5ltep-layer4-recife",
  "portal": {
@@ -10,8 +10,8 @@
  },
  "monitoring": {
   "since": "2026-10-02T12:57:26+00:00",
-  "last_cycle": "2026-10-20T16:51:16+00:00",
-  "cycles": 62,
+  "last_cycle": "2026-10-20T21:32:35+00:00",
+  "cycles": 63,
   "cycles_by_day": {
    "2026-10-02": 4,
    "2026-10-03": 4,
@@ -31,11 +31,11 @@
    "2026-10-17": 4,
    "2026-10-18": 4,
    "2026-10-19": 3,
-   "2026-10-20": 3
+   "2026-10-20": 4
   },
-  "cycles_30d": 62,
+  "cycles_30d": 63,
   "max_gap_hours_30d": 13.5,
-  "distinct_snapshots": 11,
+  "distinct_snapshots": 12,
   "failures": [
    {
     "run_id": 38808713858,
@@ -71,18 +71,32 @@
   "datasets": 223,
   "resources": 1626,
   "organizations": 33,
-  "prov_events": 16,
-  "prov_records": 16,
+  "prov_events": 17,
+  "prov_records": 17,
   "critical": 3,
-  "datasets_changed": 8,
+  "datasets_changed": 9,
   "by_type": {
-   "CONTENT_MOD": 13,
+   "CONTENT_MOD": 14,
    "SCHEMA_DRIFT": 3,
    "NEW": 1,
    "REMOVED": 1
   }
  },
  "events": [
+  {
+   "when": "2026-10-20T21:32:35+00:00",
+   "type": "CONTENT_MOD",
+   "severity": "WARNING",
+   "dataset_id": "c68396ad-ad0f-4255-a57a-84c97054dd37",
+   "name": "estoque-dos-medicamentos-nas-farmacias-da-rede-municipal-de-saude",
+   "title": "Estoque dos medicamentos nas farmácias da Rede Municipal de Saúde",
+   "summary": "File size updated; file date updated; license title changed",
+   "summary_pt": "Tamanho do arquivo atualizado; data do arquivo atualizada; título da licença alterado",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": "c68396ad-ad0f-4255-a57a-84c97054dd37.jsonld"
+  },
   {
    "when": "2026-10-19T22:16:51+00:00",
    "type": "CONTENT_MOD",
@@ -349,6 +363,19 @@
   }
  ],
  "datasets": [
+  {
+   "id": "c68396ad-ad0f-4255-a57a-84c97054dd37",
+   "name": "estoque-dos-medicamentos-nas-farmacias-da-rede-municipal-de-saude",
+   "title": "Estoque dos medicamentos nas farmácias da Rede Municipal de Saúde",
+   "organization": "Secretaria de Saúde",
+   "resources": 9,
+   "metadata_modified": "2026-10-20T19:11:37.045522",
+   "prov_records": 1,
+   "prov_log": "c68396ad-ad0f-4255-a57a-84c97054dd37.jsonld",
+   "changes": 1,
+   "last_change": "2026-10-20T21:32:35+00:00",
+   "last_type": "CONTENT_MOD"
+  },
   {
    "id": "f79dbcdf-ec99-4f4c-9b84-b33175c35528",
    "name": "licenciamento-urbanistico",
@@ -2215,19 +2242,6 @@
    "organization": "Secretaria de Saúde",
    "resources": 3,
    "metadata_modified": "2026-03-02T14:44:44.275043",
-   "prov_records": 0,
-   "prov_log": null,
-   "changes": 0,
-   "last_change": null,
-   "last_type": null
-  },
-  {
-   "id": "c68396ad-ad0f-4255-a57a-84c97054dd37",
-   "name": "estoque-dos-medicamentos-nas-farmacias-da-rede-municipal-de-saude",
-   "title": "Estoque dos medicamentos nas farmácias da Rede Municipal de Saúde",
-   "organization": "Secretaria de Saúde",
-   "resources": 9,
-   "metadata_modified": "2026-04-28T10:00:59.467490",
    "prov_records": 0,
    "prov_log": null,
    "changes": 0,
