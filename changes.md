@@ -7,9 +7,9 @@ first monitoring cycle that saw the change).
 
 - **Monitored since:** 2026-10-02
 - **Datasets in the latest snapshot:** 223
-- **Changes recorded as PROV events:** 17 (3 critical)
+- **Changes recorded as PROV events:** 18 (3 critical)
 - **New datasets:** 1
-- **Last change detected:** 2026-10-20 21:32 UTC
+- **Last change detected:** 2026-10-21 11:39 UTC
 
 Types: `CONTENT_MOD` (content changed with a new timestamp), `SCHEMA_DRIFT`
 (resources added, removed, renamed or re-formatted; critical), `RETRO_ALTER`
@@ -20,12 +20,13 @@ Types: `CONTENT_MOD` (content changed with a new timestamp), `SCHEMA_DRIFT`
 
 | Month | PROV events | Critical | New datasets |
 |---|---:|---:|---:|
-| 2026-10 | 17 | 3 | 1 |
+| 2026-10 | 18 | 3 | 1 |
 
 ## Latest changes
 
 | Detected (UTC) | Dataset | Type | What changed | Provenance |
 |---|---|---|---|---|
+| 2026-10-21 11:39 | [Estoque dos medicamentos nas farmácias da Rede Municipal de Saúde](https://dados.recife.pe.gov.br/dataset/estoque-dos-medicamentos-nas-farmacias-da-rede-municipal-de-saude) | `CONTENT_MOD` | File size updated; file date updated | [log](provenance_logs/c68396ad-ad0f-4255-a57a-84c97054dd37.jsonld) |
 | 2026-10-20 21:32 | [Estoque dos medicamentos nas farmácias da Rede Municipal de Saúde](https://dados.recife.pe.gov.br/dataset/estoque-dos-medicamentos-nas-farmacias-da-rede-municipal-de-saude) | `CONTENT_MOD` | File size updated; file date updated; license title changed | [log](provenance_logs/c68396ad-ad0f-4255-a57a-84c97054dd37.jsonld) |
 | 2026-10-19 22:16 | [Licenciamento Urbanístico](https://dados.recife.pe.gov.br/dataset/licenciamento-urbanistico) | `CONTENT_MOD` | File size updated; file date updated | [log](provenance_logs/f79dbcdf-ec99-4f4c-9b84-b33175c35528.jsonld) |
 | 2026-10-19 22:16 | [Licenciamento Sanitário](https://dados.recife.pe.gov.br/dataset/licenciamento-sanitario) | `CONTENT_MOD` | File size updated; file date updated | [log](provenance_logs/8535916b-588f-4006-bb1a-5d9c587a92d7.jsonld) |
