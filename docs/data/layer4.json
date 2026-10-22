@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-22T04:33:31.862916+00:00",
+ "generated_at": "2026-10-22T11:43:59.249793+00:00",
  "toolkit_version": "1.1.0",
  "repository": "lsp3cesarschool/5ltep-layer4-recife",
  "portal": {
@@ -10,8 +10,8 @@
  },
  "monitoring": {
   "since": "2026-10-02T12:57:26+00:00",
-  "last_cycle": "2026-10-22T04:31:35+00:00",
-  "cycles": 68,
+  "last_cycle": "2026-10-22T11:40:45+00:00",
+  "cycles": 69,
   "cycles_by_day": {
    "2026-10-02": 4,
    "2026-10-03": 4,
@@ -33,11 +33,11 @@
    "2026-10-19": 3,
    "2026-10-20": 4,
    "2026-10-21": 4,
-   "2026-10-22": 1
+   "2026-10-22": 2
   },
-  "cycles_30d": 68,
+  "cycles_30d": 69,
   "max_gap_hours_30d": 13.5,
-  "distinct_snapshots": 13,
+  "distinct_snapshots": 14,
   "failures": [
    {
     "run_id": 38808713858,
@@ -73,18 +73,32 @@
   "datasets": 223,
   "resources": 1626,
   "organizations": 33,
-  "prov_events": 18,
-  "prov_records": 18,
+  "prov_events": 19,
+  "prov_records": 19,
   "critical": 3,
   "datasets_changed": 9,
   "by_type": {
-   "CONTENT_MOD": 15,
+   "CONTENT_MOD": 16,
    "SCHEMA_DRIFT": 3,
    "NEW": 1,
    "REMOVED": 1
   }
  },
  "events": [
+  {
+   "when": "2026-10-22T11:40:45+00:00",
+   "type": "CONTENT_MOD",
+   "severity": "WARNING",
+   "dataset_id": "c68396ad-ad0f-4255-a57a-84c97054dd37",
+   "name": "estoque-dos-medicamentos-nas-farmacias-da-rede-municipal-de-saude",
+   "title": "Estoque dos medicamentos nas farmácias da Rede Municipal de Saúde",
+   "summary": "File date updated",
+   "summary_pt": "Data do arquivo atualizada",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": "c68396ad-ad0f-4255-a57a-84c97054dd37.jsonld"
+  },
   {
    "when": "2026-10-21T11:39:12+00:00",
    "type": "CONTENT_MOD",
@@ -385,11 +399,11 @@
    "title": "Estoque dos medicamentos nas farmácias da Rede Municipal de Saúde",
    "organization": "Secretaria de Saúde",
    "resources": 9,
-   "metadata_modified": "2026-10-21T10:03:45.557463",
-   "prov_records": 2,
+   "metadata_modified": "2026-10-22T10:02:26.310897",
+   "prov_records": 3,
    "prov_log": "c68396ad-ad0f-4255-a57a-84c97054dd37.jsonld",
-   "changes": 2,
-   "last_change": "2026-10-21T11:39:12+00:00",
+   "changes": 3,
+   "last_change": "2026-10-22T11:40:45+00:00",
    "last_type": "CONTENT_MOD"
   },
   {
