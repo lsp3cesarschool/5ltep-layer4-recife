@@ -22,5 +22,13 @@
   "detail": "step: Alert on CRITICAL schema change (SCHEMA_DRIFT / RETRO_ALTER)",
   "step": "Alert on CRITICAL schema change (SCHEMA_DRIFT / RETRO_ALTER)",
   "source": "actions"
+ },
+ {
+  "run_id": 39819352603,
+  "when": "2026-10-22T17:03:55+00:00",
+  "category": "network",
+  "detail": "ConnectTimeout (dados.recife.pe.gov.br)",
+  "step": "Run monitoring cycle",
+  "source": "cycle"
  }
 ]
