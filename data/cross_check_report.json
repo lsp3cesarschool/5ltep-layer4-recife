@@ -1,21 +1,26 @@
 {
-  "status": "IN_SYNC",
-  "checked_at": "2026-10-22T08:50:41.834573+00:00",
-  "duration_seconds": 177.36,
+  "status": "ERROR",
+  "checked_at": "2026-10-23T08:43:48.686985+00:00",
+  "duration_seconds": 36.32,
   "portal_url": "https://dados.recife.pe.gov.br",
-  "snapshot_run_id": "20261022T043135Z",
-  "snapshot_file": "snapshot_20261021T113912Z.json",
-  "snapshot_age_hours": 4.32,
+  "snapshot_run_id": "20261022T114045Z",
+  "snapshot_file": "snapshot_20261022T114045Z.json",
+  "snapshot_age_hours": 21.05,
   "monitor_tolerance_hours": 7,
-  "coverage_ratio": 1.0,
+  "coverage_ratio": 0.0,
   "min_coverage_ratio": 0.9,
   "datasets": {
     "snapshot": 223,
-    "live": 223,
-    "shared": 223,
+    "live": 0,
+    "shared": 0,
     "added": [],
     "removed": []
   },
   "modified": [],
-  "errors": []
+  "errors": [
+    {
+      "name": "package_list",
+      "error": "HTTPSConnectionPool(host='dados.recife.pe.gov.br', port=443): Max retries exceeded with url: /api/3/action/package_list (Caused by ConnectTimeoutError(<HTTPSConnection(host='dados.recife.pe.gov.br', port=443) at 0x73693dcbeb10>, 'Connection to dados.recife.pe.gov.br timed out. (connect timeout=10)'))"
+    }
+  ]
 }
