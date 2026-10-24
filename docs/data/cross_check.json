@@ -1,11 +1,11 @@
 {
  "status": "ERROR",
- "checked_at": "2026-10-23T08:43:48.686985+00:00",
- "duration_seconds": 36.32,
+ "checked_at": "2026-10-24T08:18:46.048983+00:00",
+ "duration_seconds": 38.14,
  "portal_url": "https://dados.recife.pe.gov.br",
  "snapshot_run_id": "20261022T114045Z",
  "snapshot_file": "snapshot_20261022T114045Z.json",
- "snapshot_age_hours": 21.05,
+ "snapshot_age_hours": 44.63,
  "monitor_tolerance_hours": 7,
  "coverage_ratio": 0.0,
  "min_coverage_ratio": 0.9,
@@ -20,9 +20,9 @@
  "errors": [
   {
    "name": "package_list",
-   "error": "HTTPSConnectionPool(host='dados.recife.pe.gov.br', port=443): Max retries exceeded with url: /api/3/action/package_list (Caused by ConnectTimeoutError(<HTTPSConnection(host='dados.recife.pe.gov.br', port=443) at 0x73693dcbeb10>, 'Connection to dados.recife.pe.gov.br timed out. (connect timeout=10)'))"
+   "error": "HTTPSConnectionPool(host='dados.recife.pe.gov.br', port=443): Max retries exceeded with url: /api/3/action/package_list (Caused by ConnectTimeoutError(<HTTPSConnection(host='dados.recife.pe.gov.br', port=443) at 0x7a419d52ad50>, 'Connection to dados.recife.pe.gov.br timed out. (connect timeout=10)'))"
   }
  ],
- "sentence": "❌ **Cross-check error** — last attempt 2026-10-23 08:43 UTC; coverage 0% below 90% threshold (1 fetch failure(s)). See `data/cross_check_report.json`.",
- "sentence_pt": "❌ **Erro na verificação cruzada** — última tentativa em 2026-10-23 08:43 UTC; cobertura de 0%, abaixo do limite de 90% (1 falha(s) de consulta). Veja `data/cross_check_report.json`."
+ "sentence": "❌ **Cross-check error** — last attempt 2026-10-24 08:18 UTC; coverage 0% below 90% threshold (1 fetch failure(s)). See `data/cross_check_report.json`.",
+ "sentence_pt": "❌ **Erro na verificação cruzada** — última tentativa em 2026-10-24 08:18 UTC; cobertura de 0%, abaixo do limite de 90% (1 falha(s) de consulta). Veja `data/cross_check_report.json`."
 }
