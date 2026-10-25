@@ -118,5 +118,13 @@
   "detail": "ConnectTimeout (dados.recife.pe.gov.br)",
   "step": "Run monitoring cycle",
   "source": "cycle"
+ },
+ {
+  "run_id": 40209790185,
+  "when": "2026-10-25T16:02:56+00:00",
+  "category": "network",
+  "detail": "ConnectTimeout (dados.recife.pe.gov.br)",
+  "step": "Run monitoring cycle",
+  "source": "cycle"
  }
 ]
