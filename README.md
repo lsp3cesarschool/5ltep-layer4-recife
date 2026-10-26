@@ -48,8 +48,8 @@ the state every later cycle is compared with.
 | `portal.json` | `portal_url` = `https://dados.recife.pe.gov.br` |
 | `README.md`, `LEIAME.md`, `CITATION.cff` | this text and the citation of this repository |
 
-Everything else is the code of `5ltep-layer4` at commit `a081c64`
-([a081c643b2afef811269697bc5fff6d208e1707a](https://github.com/lsp3cesarschool/5ltep-layer4/commit/a081c643b2afef811269697bc5fff6d208e1707a)). The snapshots, provenance records,
+Everything else is the code of `5ltep-layer4` at commit `6518f04`
+([6518f044244704c3f3835117feeee7d8cf9f8dfc](https://github.com/lsp3cesarschool/5ltep-layer4/commit/6518f044244704c3f3835117feeee7d8cf9f8dfc)). The snapshots, provenance records,
 change log and dashboard data are written here by the workflows.
 
 ## Running it, and adapting it again
