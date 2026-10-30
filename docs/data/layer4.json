@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-30T05:36:27.621461+00:00",
+ "generated_at": "2026-10-30T12:43:15.386799+00:00",
  "toolkit_version": "1.1.0",
  "repository": "lsp3cesarschool/5ltep-layer4-recife",
  "portal": {
@@ -39,6 +39,14 @@
   "max_gap_hours_30d": 13.5,
   "distinct_snapshots": 14,
   "failures": [
+   {
+    "run_id": 41057361572,
+    "when": "2026-10-30T12:42:34+00:00",
+    "category": "network",
+    "detail": "ConnectTimeout (dados.recife.pe.gov.br)",
+    "step": "Run monitoring cycle",
+    "source": "cycle"
+   },
    {
     "run_id": 41009288221,
     "when": "2026-10-30T05:35:45+00:00",
@@ -289,7 +297,7 @@
    }
   ],
   "failures_by_category": {
-   "network": 28,
+   "network": 29,
    "unknown": 3
   },
   "unread_last_cycle": []
