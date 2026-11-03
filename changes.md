@@ -7,9 +7,9 @@ first monitoring cycle that saw the change).
 
 - **Monitored since:** 2026-10-02
 - **Datasets in the latest snapshot:** 223
-- **Changes recorded as PROV events:** 19 (3 critical)
+- **Changes recorded as PROV events:** 28 (5 critical)
 - **New datasets:** 1
-- **Last change detected:** 2026-10-22 11:40 UTC
+- **Last change detected:** 2026-11-03 23:13 UTC
 
 Types: `CONTENT_MOD` (content changed with a new timestamp), `SCHEMA_DRIFT`
 (resources added, removed, renamed or re-formatted; critical), `RETRO_ALTER`
@@ -20,12 +20,35 @@ Types: `CONTENT_MOD` (content changed with a new timestamp), `SCHEMA_DRIFT`
 
 | Month | PROV events | Critical | New datasets |
 |---|---:|---:|---:|
+| 2026-11 | 9 | 2 | 0 |
 | 2026-10 | 19 | 3 | 1 |
 
 ## Latest changes
 
 | Detected (UTC) | Dataset | Type | What changed | Provenance |
 |---|---|---|---|---|
+| 2026-11-03 23:13 | [Zoneamento - Plano Diretor](https://dados.recife.pe.gov.br/dataset/zoneamento) | `NOT_FINGERPRINTED` | Metadata changed outside the fingerprint |  |
+| 2026-11-03 23:13 | [Velocidade das Vias - Quantitativo por Velocidade Média - 2026](https://dados.recife.pe.gov.br/dataset/velocidade-das-vias-quantitativo-por-velocidade-media-2026) | `NOT_FINGERPRINTED` | License title changed |  |
+| 2026-11-03 23:13 | [Serviço de Atendimento Móvel de Urgência - SAMU 2026](https://dados.recife.pe.gov.br/dataset/servico-de-atendimento-movel-de-urgencia-samu-2026) | `NOT_FINGERPRINTED` | License title changed |  |
+| 2026-11-03 23:13 | [Servidores](https://dados.recife.pe.gov.br/dataset/servidores) | `SCHEMA_DRIFT` | 1 resource URL(s) changed; resource renamed; file size updated; file date updated | [log](provenance_logs/4af3f483-53f6-4e5a-91c4-8d486449e183.jsonld) |
+| 2026-11-03 23:13 | [Registro de Atendimentos da Defesa Civil](https://dados.recife.pe.gov.br/dataset/registro-de-atendimentos-da-defesa-civil) | `NOT_FINGERPRINTED` | License title changed |  |
+| 2026-11-03 23:13 | [Pesquisa Origem Destino 2016](https://dados.recife.pe.gov.br/dataset/pesquisa-origem-destino) | `NOT_FINGERPRINTED` | Metadata changed outside the fingerprint |  |
+| 2026-11-03 23:13 | [Perímetro do Porto Digital](https://dados.recife.pe.gov.br/dataset/perimetro-do-porto-digital) | `NOT_FINGERPRINTED` | Metadata changed outside the fingerprint |  |
+| 2026-11-03 23:13 | [Patinetes](https://dados.recife.pe.gov.br/dataset/patinetes) | `NOT_FINGERPRINTED` | License title changed |  |
+| 2026-11-03 23:13 | [Outorga onerosa do direito de construir](https://dados.recife.pe.gov.br/dataset/outorga-onerosa-do-direito-de-construir) | `NOT_FINGERPRINTED` | Metadata changed outside the fingerprint |  |
+| 2026-11-03 23:13 | [Monitoramento da política urbana e Plano Diretor](https://dados.recife.pe.gov.br/dataset/monitoramento-da-politica-urbana-e-plano-diretor) | `NOT_FINGERPRINTED` | Metadata changed outside the fingerprint |  |
+| 2026-11-03 23:13 | [Mapas de limites e divisões territoriais](https://dados.recife.pe.gov.br/dataset/mapas-de-limites-e-divisoes-territoriais) | `NOT_FINGERPRINTED` | Metadata changed outside the fingerprint |  |
+| 2026-11-03 23:13 | [Malha Cicloviária do Recife](https://dados.recife.pe.gov.br/dataset/malha-cicloviaria-do-recife) | `NOT_FINGERPRINTED` | License title changed |  |
+| 2026-11-03 23:13 | [Licenciamento Urbanístico](https://dados.recife.pe.gov.br/dataset/licenciamento-urbanistico) | `CONTENT_MOD` | File size updated; file date updated; license title changed | [log](provenance_logs/f79dbcdf-ec99-4f4c-9b84-b33175c35528.jsonld) |
+| 2026-11-03 23:13 | [Licenciamento Sanitário](https://dados.recife.pe.gov.br/dataset/licenciamento-sanitario) | `CONTENT_MOD` | File size updated; file date updated; license title changed | [log](provenance_logs/8535916b-588f-4006-bb1a-5d9c587a92d7.jsonld) |
+| 2026-11-03 23:13 | [Licenciamento Ambiental](https://dados.recife.pe.gov.br/dataset/licenciamento-ambiental) | `CONTENT_MOD` | File size updated; file date updated; license title changed | [log](provenance_logs/75869ab7-ccce-40d6-aed6-4afca4c8cc82.jsonld) |
+| 2026-11-03 23:13 | [Imóvel de Proteção de Área Verde (IPAV)](https://dados.recife.pe.gov.br/dataset/imovel-de-protecao-de-area-verde-ipav) | `NOT_FINGERPRINTED` | Metadata changed outside the fingerprint |  |
+| 2026-11-03 23:13 | [Imóveis Especiais de Preservação - IEPs](https://dados.recife.pe.gov.br/dataset/imoveis-especiais-de-preservacao-ieps) | `NOT_FINGERPRINTED` | Metadata changed outside the fingerprint |  |
+| 2026-11-03 23:13 | [Imposto sobre Transmissão de Bens Imóveis (ITBI)](https://dados.recife.pe.gov.br/dataset/imposto-sobre-transmissao-de-bens-imoveis-itbi) | `CONTENT_MOD` | File size updated; file date updated; license title changed | [log](provenance_logs/ae32808e-ab98-4fe4-bacf-a72b2ac14551.jsonld) |
+| 2026-11-03 23:13 | [Imposto Predial e Territorial Urbano (IPTU)](https://dados.recife.pe.gov.br/dataset/imposto-predial-e-territorial-urbano-iptu) | `CONTENT_MOD` | File size updated; file date updated; license title changed | [log](provenance_logs/4a82b8b9-66a1-441c-aece-dfdf1dbbf994.jsonld) |
+| 2026-11-03 23:13 | [Estoque dos medicamentos nas farmácias da Rede Municipal de Saúde](https://dados.recife.pe.gov.br/dataset/estoque-dos-medicamentos-nas-farmacias-da-rede-municipal-de-saude) | `CONTENT_MOD` | File date updated; license title changed | [log](provenance_logs/c68396ad-ad0f-4255-a57a-84c97054dd37.jsonld) |
+| 2026-11-03 23:13 | [Empresas da Cidade do Recife](https://dados.recife.pe.gov.br/dataset/empresas-da-cidade-do-recife) | `CONTENT_MOD` | File size updated; file date updated; license title changed | [log](provenance_logs/3442510c-c85a-4271-bd2d-49cdff392459.jsonld) |
+| 2026-11-03 23:13 | [Conecta Recife Wifi](https://dados.recife.pe.gov.br/dataset/conecta-recife) | `SCHEMA_DRIFT` | File size updated; file date updated | [log](provenance_logs/077c537f-49ef-47e6-b2bf-410f971dcd68.jsonld) |
 | 2026-10-22 11:40 | [Estoque dos medicamentos nas farmácias da Rede Municipal de Saúde](https://dados.recife.pe.gov.br/dataset/estoque-dos-medicamentos-nas-farmacias-da-rede-municipal-de-saude) | `CONTENT_MOD` | File date updated | [log](provenance_logs/c68396ad-ad0f-4255-a57a-84c97054dd37.jsonld) |
 | 2026-10-21 11:39 | [Estoque dos medicamentos nas farmácias da Rede Municipal de Saúde](https://dados.recife.pe.gov.br/dataset/estoque-dos-medicamentos-nas-farmacias-da-rede-municipal-de-saude) | `CONTENT_MOD` | File size updated; file date updated | [log](provenance_logs/c68396ad-ad0f-4255-a57a-84c97054dd37.jsonld) |
 | 2026-10-20 21:32 | [Estoque dos medicamentos nas farmácias da Rede Municipal de Saúde](https://dados.recife.pe.gov.br/dataset/estoque-dos-medicamentos-nas-farmacias-da-rede-municipal-de-saude) | `CONTENT_MOD` | File size updated; file date updated; license title changed | [log](provenance_logs/c68396ad-ad0f-4255-a57a-84c97054dd37.jsonld) |
