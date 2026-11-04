@@ -7,9 +7,9 @@ first monitoring cycle that saw the change).
 
 - **Monitored since:** 2026-10-02
 - **Datasets in the latest snapshot:** 223
-- **Changes recorded as PROV events:** 28 (5 critical)
+- **Changes recorded as PROV events:** 30 (5 critical)
 - **New datasets:** 1
-- **Last change detected:** 2026-11-03 23:13 UTC
+- **Last change detected:** 2026-11-04 14:21 UTC
 
 Types: `CONTENT_MOD` (content changed with a new timestamp), `SCHEMA_DRIFT`
 (resources added, removed, renamed or re-formatted; critical), `RETRO_ALTER`
@@ -20,13 +20,15 @@ Types: `CONTENT_MOD` (content changed with a new timestamp), `SCHEMA_DRIFT`
 
 | Month | PROV events | Critical | New datasets |
 |---|---:|---:|---:|
-| 2026-11 | 9 | 2 | 0 |
+| 2026-11 | 11 | 2 | 0 |
 | 2026-10 | 19 | 3 | 1 |
 
 ## Latest changes
 
 | Detected (UTC) | Dataset | Type | What changed | Provenance |
 |---|---|---|---|---|
+| 2026-11-04 14:21 | [Estoque dos medicamentos nas farmácias da Rede Municipal de Saúde](https://dados.recife.pe.gov.br/dataset/estoque-dos-medicamentos-nas-farmacias-da-rede-municipal-de-saude) | `CONTENT_MOD` | File date updated; license title changed | [log](provenance_logs/c68396ad-ad0f-4255-a57a-84c97054dd37.jsonld) |
+| 2026-11-04 14:21 | [Conecta Recife Wifi](https://dados.recife.pe.gov.br/dataset/conecta-recife) | `CONTENT_MOD` | File date updated | [log](provenance_logs/077c537f-49ef-47e6-b2bf-410f971dcd68.jsonld) |
 | 2026-11-03 23:13 | [Zoneamento - Plano Diretor](https://dados.recife.pe.gov.br/dataset/zoneamento) | `NOT_FINGERPRINTED` | Metadata changed outside the fingerprint |  |
 | 2026-11-03 23:13 | [Velocidade das Vias - Quantitativo por Velocidade Média - 2026](https://dados.recife.pe.gov.br/dataset/velocidade-das-vias-quantitativo-por-velocidade-media-2026) | `NOT_FINGERPRINTED` | License title changed |  |
 | 2026-11-03 23:13 | [Serviço de Atendimento Móvel de Urgência - SAMU 2026](https://dados.recife.pe.gov.br/dataset/servico-de-atendimento-movel-de-urgencia-samu-2026) | `NOT_FINGERPRINTED` | License title changed |  |
