@@ -1,28 +1,40 @@
 {
- "status": "ERROR",
- "checked_at": "2026-11-03T11:09:57.843863+00:00",
- "duration_seconds": 36.92,
+ "status": "PENDING",
+ "checked_at": "2026-11-04T11:21:27.671551+00:00",
+ "duration_seconds": 121.19,
  "portal_url": "https://dados.recife.pe.gov.br",
- "snapshot_run_id": "20261022T114045Z",
- "snapshot_file": "snapshot_20261022T114045Z.json",
- "snapshot_age_hours": 287.49,
+ "snapshot_run_id": "20261104T060321Z",
+ "snapshot_file": "snapshot_20261103T231329Z.json",
+ "snapshot_age_hours": 5.3,
  "monitor_tolerance_hours": 7,
- "coverage_ratio": 0.0,
+ "coverage_ratio": 1.0,
  "min_coverage_ratio": 0.9,
  "datasets": {
   "snapshot": 223,
-  "live": 0,
-  "shared": 0,
+  "live": 223,
+  "shared": 223,
   "added": [],
   "removed": []
  },
- "modified": [],
- "errors": [
+ "modified": [
   {
-   "name": "package_list",
-   "error": "HTTPSConnectionPool(host='dados.recife.pe.gov.br', port=443): Max retries exceeded with url: /api/3/action/package_list (Caused by ConnectTimeoutError(<HTTPSConnection(host='dados.recife.pe.gov.br', port=443) at 0x781e20d568d0>, 'Connection to dados.recife.pe.gov.br timed out. (connect timeout=10)'))"
+   "id": "077c537f-49ef-47e6-b2bf-410f971dcd68",
+   "name": "conecta-recife",
+   "snapshot_metadata_modified": "2026-11-03T20:31:06.965212",
+   "live_metadata_modified": "2026-11-04T10:58:59.267242",
+   "snapshot_num_resources": 6,
+   "live_num_resources": 6
+  },
+  {
+   "id": "c68396ad-ad0f-4255-a57a-84c97054dd37",
+   "name": "estoque-dos-medicamentos-nas-farmacias-da-rede-municipal-de-saude",
+   "snapshot_metadata_modified": "2026-11-03T10:02:23.921992",
+   "live_metadata_modified": "2026-11-04T10:02:25.600888",
+   "snapshot_num_resources": 9,
+   "live_num_resources": 9
   }
  ],
- "sentence": "❌ **Cross-check error** — last attempt 2026-11-03 11:09 UTC; coverage 0% below 90% threshold (1 fetch failure(s)). See `data/cross_check_report.json`.",
- "sentence_pt": "❌ **Erro na verificação cruzada** — última tentativa em 2026-11-03 11:09 UTC; cobertura de 0%, abaixo do limite de 90% (1 falha(s) de consulta). Veja `data/cross_check_report.json`."
+ "errors": [],
+ "sentence": "⏳ **Cross-check pending** — last verified 2026-11-04 11:21 UTC. 2 divergence(s) detected; next monitor run will reconcile (snapshot age 5.3h ≤ 7h tolerance).",
+ "sentence_pt": "⏳ **Verificação cruzada pendente** — última verificação em 2026-11-04 11:21 UTC. 2 divergência(s) detectada(s); a próxima execução do monitoramento vai reconciliá-las (snapshot com 5,3 h ≤ tolerância de 7 h)."
 }

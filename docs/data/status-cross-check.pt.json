@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
  "label": "verificação cruzada",
- "message": "erro: 0% consultados · 2026-11-03",
- "color": "red"
+ "message": "pendente: 2 divergência(s) · 2026-11-04",
+ "color": "yellow"
 }
