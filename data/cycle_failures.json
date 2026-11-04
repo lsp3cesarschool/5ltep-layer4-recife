@@ -342,5 +342,13 @@
   "detail": "ConnectTimeout (dados.recife.pe.gov.br)",
   "step": "Run monitoring cycle",
   "source": "cycle"
+ },
+ {
+  "run_id": 41737402007,
+  "when": "2026-11-03T23:13:16+00:00",
+  "category": "unknown",
+  "detail": "step: Alert on CRITICAL schema change (SCHEMA_DRIFT / RETRO_ALTER)",
+  "step": "Alert on CRITICAL schema change (SCHEMA_DRIFT / RETRO_ALTER)",
+  "source": "actions"
  }
 ]
