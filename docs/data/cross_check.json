@@ -1,11 +1,11 @@
 {
  "status": "PENDING",
- "checked_at": "2026-11-04T11:21:27.671551+00:00",
- "duration_seconds": 121.19,
+ "checked_at": "2026-11-05T11:19:42.838742+00:00",
+ "duration_seconds": 117.29,
  "portal_url": "https://dados.recife.pe.gov.br",
- "snapshot_run_id": "20261104T060321Z",
- "snapshot_file": "snapshot_20261103T231329Z.json",
- "snapshot_age_hours": 5.3,
+ "snapshot_run_id": "20261105T063133Z",
+ "snapshot_file": "snapshot_20261104T142119Z.json",
+ "snapshot_age_hours": 4.8,
  "monitor_tolerance_hours": 7,
  "coverage_ratio": 1.0,
  "min_coverage_ratio": 0.9,
@@ -18,23 +18,15 @@
  },
  "modified": [
   {
-   "id": "077c537f-49ef-47e6-b2bf-410f971dcd68",
-   "name": "conecta-recife",
-   "snapshot_metadata_modified": "2026-11-03T20:31:06.965212",
-   "live_metadata_modified": "2026-11-04T10:58:59.267242",
-   "snapshot_num_resources": 6,
-   "live_num_resources": 6
-  },
-  {
    "id": "c68396ad-ad0f-4255-a57a-84c97054dd37",
    "name": "estoque-dos-medicamentos-nas-farmacias-da-rede-municipal-de-saude",
-   "snapshot_metadata_modified": "2026-11-03T10:02:23.921992",
-   "live_metadata_modified": "2026-11-04T10:02:25.600888",
+   "snapshot_metadata_modified": "2026-11-04T10:02:25.600888",
+   "live_metadata_modified": "2026-11-05T10:02:28.336352",
    "snapshot_num_resources": 9,
    "live_num_resources": 9
   }
  ],
  "errors": [],
- "sentence": "⏳ **Cross-check pending** — last verified 2026-11-04 11:21 UTC. 2 divergence(s) detected; next monitor run will reconcile (snapshot age 5.3h ≤ 7h tolerance).",
- "sentence_pt": "⏳ **Verificação cruzada pendente** — última verificação em 2026-11-04 11:21 UTC. 2 divergência(s) detectada(s); a próxima execução do monitoramento vai reconciliá-las (snapshot com 5,3 h ≤ tolerância de 7 h)."
+ "sentence": "⏳ **Cross-check pending** — last verified 2026-11-05 11:19 UTC. 1 divergence(s) detected; next monitor run will reconcile (snapshot age 4.8h ≤ 7h tolerance).",
+ "sentence_pt": "⏳ **Verificação cruzada pendente** — última verificação em 2026-11-05 11:19 UTC. 1 divergência(s) detectada(s); a próxima execução do monitoramento vai reconciliá-las (snapshot com 4,8 h ≤ tolerância de 7 h)."
 }
