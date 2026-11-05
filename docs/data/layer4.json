@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-05T06:33:04.207168+00:00",
+ "generated_at": "2026-11-05T19:53:44.400912+00:00",
  "toolkit_version": "1.1.0",
  "repository": "lsp3cesarschool/5ltep-layer4-recife",
  "portal": {
@@ -10,8 +10,8 @@
  },
  "monitoring": {
   "since": "2026-10-02T12:57:26+00:00",
-  "last_cycle": "2026-11-05T06:31:33+00:00",
-  "cycles": 74,
+  "last_cycle": "2026-11-05T19:52:31+00:00",
+  "cycles": 75,
   "cycles_by_day": {
    "2026-10-02": 4,
    "2026-10-03": 4,
@@ -36,11 +36,11 @@
    "2026-10-22": 2,
    "2026-11-03": 1,
    "2026-11-04": 3,
-   "2026-11-05": 1
+   "2026-11-05": 2
   },
   "cycles_30d": 59,
   "max_gap_hours_30d": 299.5,
-  "distinct_snapshots": 16,
+  "distinct_snapshots": 17,
   "failures": [
    {
     "run_id": 41737402007,
@@ -405,12 +405,12 @@
   "datasets": 223,
   "resources": 1626,
   "organizations": 32,
-  "prov_events": 30,
-  "prov_records": 30,
+  "prov_events": 31,
+  "prov_records": 31,
   "critical": 5,
   "datasets_changed": 10,
   "by_type": {
-   "CONTENT_MOD": 25,
+   "CONTENT_MOD": 26,
    "NOT_FINGERPRINTED": 13,
    "SCHEMA_DRIFT": 5,
    "NEW": 1,
@@ -418,6 +418,20 @@
   }
  },
  "events": [
+  {
+   "when": "2026-11-05T19:52:31+00:00",
+   "type": "CONTENT_MOD",
+   "severity": "WARNING",
+   "dataset_id": "c68396ad-ad0f-4255-a57a-84c97054dd37",
+   "name": "estoque-dos-medicamentos-nas-farmacias-da-rede-municipal-de-saude",
+   "title": "Estoque dos medicamentos nas farmácias da Rede Municipal de Saúde",
+   "summary": "File date updated",
+   "summary_pt": "Data do arquivo atualizada",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": "c68396ad-ad0f-4255-a57a-84c97054dd37.jsonld"
+  },
   {
    "when": "2026-11-04T14:21:19+00:00",
    "type": "CONTENT_MOD",
@@ -1068,11 +1082,11 @@
    "title": "Estoque dos medicamentos nas farmácias da Rede Municipal de Saúde",
    "organization": "Secretaria de Saúde",
    "resources": 9,
-   "metadata_modified": "2026-11-04T10:02:25.600888",
-   "prov_records": 5,
+   "metadata_modified": "2026-11-05T10:02:28.336352",
+   "prov_records": 6,
    "prov_log": "c68396ad-ad0f-4255-a57a-84c97054dd37.jsonld",
-   "changes": 5,
-   "last_change": "2026-11-04T14:21:19+00:00",
+   "changes": 6,
+   "last_change": "2026-11-05T19:52:31+00:00",
    "last_type": "CONTENT_MOD"
   },
   {
