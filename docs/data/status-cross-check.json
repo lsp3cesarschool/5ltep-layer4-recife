@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
  "label": "cross-check",
- "message": "pending: 1 divergence(s) · 2026-11-06",
- "color": "yellow"
+ "message": "in sync · 2026-11-07",
+ "color": "brightgreen"
 }
