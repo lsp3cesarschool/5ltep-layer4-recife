@@ -1,0 +1,101 @@
+{
+  "@context": {
+    "prov": "http://www.w3.org/ns/prov#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "5ltep": "https://5ltep.example.org/ontology#",
+    "ckan": "https://ckan.org/schema#",
+    "portal": "https://dados.recife.pe.gov.br/"
+  },
+  "5ltep:datasetId": "12578535-6cf0-4097-94fa-ff6ec3d51988",
+  "5ltep:portalUrl": "https://dados.recife.pe.gov.br",
+  "provenance_chain": [
+    {
+      "@context": {
+        "prov": "http://www.w3.org/ns/prov#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "5ltep": "https://5ltep.example.org/ontology#",
+        "ckan": "https://ckan.org/schema#",
+        "portal": "https://dados.recife.pe.gov.br/"
+      },
+      "@graph": [
+        {
+          "@id": "https://dados.recife.pe.gov.br/dataset/12578535-6cf0-4097-94fa-ff6ec3d51988#065c68e309da",
+          "@type": [
+            "prov:Entity",
+            "5ltep:DatasetSnapshot"
+          ],
+          "prov:wasGeneratedBy": {
+            "@id": "5ltep:run-20261109T160349Z"
+          },
+          "5ltep:changeType": "SCHEMA_DRIFT",
+          "5ltep:severity": "CRITICAL",
+          "5ltep:datasetId": "12578535-6cf0-4097-94fa-ff6ec3d51988",
+          "5ltep:contentHash": "065c68e309da6729b5d655150e4b7c5259558f797f72b7ac8e5c53a1004afc98",
+          "5ltep:detectedAt": {
+            "@value": "2026-11-09T16:03:49.101219+00:00",
+            "@type": "xsd:dateTime"
+          },
+          "prov:wasAttributedTo": {
+            "@id": "https://dados.recife.pe.gov.br/organization/secretaria-de-governo"
+          },
+          "prov:wasDerivedFrom": {
+            "@id": "https://dados.recife.pe.gov.br/dataset/12578535-6cf0-4097-94fa-ff6ec3d51988#529df4bcb49d"
+          },
+          "5ltep:changeSummary": "License title changed",
+          "5ltep:changedFields": [
+            "metadata_modified"
+          ],
+          "5ltep:fieldsOutsideFingerprint": [
+            "license_title",
+            "resource.position"
+          ],
+          "5ltep:resourceUrlChanges": 0,
+          "5ltep:hostMoves": 0,
+          "5ltep:packagingChanges": 0
+        },
+        {
+          "@id": "5ltep:run-20261109T160349Z",
+          "@type": [
+            "prov:Activity",
+            "5ltep:MonitoringRun"
+          ],
+          "prov:startedAtTime": {
+            "@value": "2026-11-09T16:03:49.110382+00:00",
+            "@type": "xsd:dateTime"
+          },
+          "prov:endedAtTime": {
+            "@value": "2026-11-09T16:03:49.110485+00:00",
+            "@type": "xsd:dateTime"
+          },
+          "prov:wasAssociatedWith": {
+            "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-recife@0e2bffc"
+          },
+          "prov:used": {
+            "@id": "https://dados.recife.pe.gov.br/api/3/action/package_show?id=12578535-6cf0-4097-94fa-ff6ec3d51988"
+          }
+        },
+        {
+          "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-recife@0e2bffc",
+          "@type": [
+            "prov:Agent",
+            "prov:SoftwareAgent"
+          ],
+          "rdfs:label": "5L-TEP Toolkit v1.1.0 (Layer 4 — Observability & Provenance)",
+          "5ltep:repositoryUrl": "https://github.com/lsp3cesarschool/5ltep-layer4-recife",
+          "5ltep:commitSha": "0e2bffc16e73bce626c0e986ef10e045e038f0a9"
+        },
+        {
+          "@id": "https://dados.recife.pe.gov.br/organization/secretaria-de-governo",
+          "@type": [
+            "prov:Agent",
+            "5ltep:DataCustodian"
+          ],
+          "rdfs:label": "secretaria-de-governo",
+          "5ltep:portalUrl": "https://dados.recife.pe.gov.br"
+        }
+      ]
+    }
+  ]
+}

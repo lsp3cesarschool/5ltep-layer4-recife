@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-09T06:07:05.279578+00:00",
+ "generated_at": "2026-11-09T16:03:52.800104+00:00",
  "toolkit_version": "1.1.0",
  "repository": "lsp3cesarschool/5ltep-layer4-recife",
  "portal": {
@@ -10,8 +10,8 @@
  },
  "monitoring": {
   "since": "2026-10-02T12:57:26+00:00",
-  "last_cycle": "2026-11-09T06:06:07+00:00",
-  "cycles": 84,
+  "last_cycle": "2026-11-09T16:02:36+00:00",
+  "cycles": 85,
   "cycles_by_day": {
    "2026-10-02": 4,
    "2026-10-03": 4,
@@ -40,11 +40,11 @@
    "2026-11-06": 2,
    "2026-11-07": 3,
    "2026-11-08": 3,
-   "2026-11-09": 1
+   "2026-11-09": 2
   },
   "cycles_30d": 58,
   "max_gap_hours_30d": 299.5,
-  "distinct_snapshots": 18,
+  "distinct_snapshots": 19,
   "failures": [
    {
     "run_id": 41737402007,
@@ -409,19 +409,47 @@
   "datasets": 223,
   "resources": 1626,
   "organizations": 32,
-  "prov_events": 33,
-  "prov_records": 33,
-  "critical": 5,
-  "datasets_changed": 11,
+  "prov_events": 35,
+  "prov_records": 35,
+  "critical": 6,
+  "datasets_changed": 12,
   "by_type": {
-   "CONTENT_MOD": 28,
+   "CONTENT_MOD": 29,
+   "SCHEMA_DRIFT": 6,
    "NOT_FINGERPRINTED": 13,
-   "SCHEMA_DRIFT": 5,
    "NEW": 1,
    "REMOVED": 1
   }
  },
  "events": [
+  {
+   "when": "2026-11-09T16:02:36+00:00",
+   "type": "CONTENT_MOD",
+   "severity": "WARNING",
+   "dataset_id": "c68396ad-ad0f-4255-a57a-84c97054dd37",
+   "name": "estoque-dos-medicamentos-nas-farmacias-da-rede-municipal-de-saude",
+   "title": "Estoque dos medicamentos nas farmácias da Rede Municipal de Saúde",
+   "summary": "File date updated",
+   "summary_pt": "Data do arquivo atualizada",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": "c68396ad-ad0f-4255-a57a-84c97054dd37.jsonld"
+  },
+  {
+   "when": "2026-11-09T16:02:36+00:00",
+   "type": "SCHEMA_DRIFT",
+   "severity": "CRITICAL",
+   "dataset_id": "12578535-6cf0-4097-94fa-ff6ec3d51988",
+   "name": "diario-oficial",
+   "title": "Diário Oficial",
+   "summary": "License title changed",
+   "summary_pt": "Título da licença alterado",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": "12578535-6cf0-4097-94fa-ff6ec3d51988.jsonld"
+  },
   {
    "when": "2026-11-06T19:17:19+00:00",
    "type": "CONTENT_MOD",
@@ -1109,6 +1137,32 @@
  ],
  "datasets": [
   {
+   "id": "c68396ad-ad0f-4255-a57a-84c97054dd37",
+   "name": "estoque-dos-medicamentos-nas-farmacias-da-rede-municipal-de-saude",
+   "title": "Estoque dos medicamentos nas farmácias da Rede Municipal de Saúde",
+   "organization": "Secretaria de Saúde",
+   "resources": 9,
+   "metadata_modified": "2026-11-09T10:02:36.486449",
+   "prov_records": 8,
+   "prov_log": "c68396ad-ad0f-4255-a57a-84c97054dd37.jsonld",
+   "changes": 8,
+   "last_change": "2026-11-09T16:02:36+00:00",
+   "last_type": "CONTENT_MOD"
+  },
+  {
+   "id": "12578535-6cf0-4097-94fa-ff6ec3d51988",
+   "name": "diario-oficial",
+   "title": "Diário Oficial",
+   "organization": "Secretaria de Governo e Participação Social",
+   "resources": 32,
+   "metadata_modified": "2026-11-09T16:01:54.696805",
+   "prov_records": 1,
+   "prov_log": "12578535-6cf0-4097-94fa-ff6ec3d51988.jsonld",
+   "changes": 1,
+   "last_change": "2026-11-09T16:02:36+00:00",
+   "last_type": "SCHEMA_DRIFT"
+  },
+  {
    "id": "dca76666-842e-48cb-b005-6670d7212b46",
    "name": "servico-de-atendimento-movel-de-urgencia-samu-2026",
    "title": "Serviço de Atendimento Móvel de Urgência - SAMU 2026",
@@ -1118,19 +1172,6 @@
    "prov_records": 1,
    "prov_log": "dca76666-842e-48cb-b005-6670d7212b46.jsonld",
    "changes": 2,
-   "last_change": "2026-11-06T19:17:19+00:00",
-   "last_type": "CONTENT_MOD"
-  },
-  {
-   "id": "c68396ad-ad0f-4255-a57a-84c97054dd37",
-   "name": "estoque-dos-medicamentos-nas-farmacias-da-rede-municipal-de-saude",
-   "title": "Estoque dos medicamentos nas farmácias da Rede Municipal de Saúde",
-   "organization": "Secretaria de Saúde",
-   "resources": 9,
-   "metadata_modified": "2026-11-06T10:02:31.255674",
-   "prov_records": 7,
-   "prov_log": "c68396ad-ad0f-4255-a57a-84c97054dd37.jsonld",
-   "changes": 7,
    "last_change": "2026-11-06T19:17:19+00:00",
    "last_type": "CONTENT_MOD"
   },
@@ -3143,19 +3184,6 @@
    "organization": "Autarquia de Trânsito e Transporte Urbano do Recife - CTTU",
    "resources": 1,
    "metadata_modified": "2026-03-02T14:38:42.117890",
-   "prov_records": 0,
-   "prov_log": null,
-   "changes": 0,
-   "last_change": null,
-   "last_type": null
-  },
-  {
-   "id": "12578535-6cf0-4097-94fa-ff6ec3d51988",
-   "name": "diario-oficial",
-   "title": "Diário Oficial",
-   "organization": "Secretaria de Governo e Participação Social",
-   "resources": 32,
-   "metadata_modified": "2026-03-02T14:38:32.713680",
    "prov_records": 0,
    "prov_log": null,
    "changes": 0,
