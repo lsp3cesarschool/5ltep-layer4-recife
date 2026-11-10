@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-10T01:28:00.622320+00:00",
+ "generated_at": "2026-11-10T14:47:07.801662+00:00",
  "toolkit_version": "1.1.0",
  "repository": "lsp3cesarschool/5ltep-layer4-recife",
  "portal": {
@@ -10,8 +10,8 @@
  },
  "monitoring": {
   "since": "2026-10-02T12:57:26+00:00",
-  "last_cycle": "2026-11-10T01:26:46+00:00",
-  "cycles": 86,
+  "last_cycle": "2026-11-10T14:45:54+00:00",
+  "cycles": 87,
   "cycles_by_day": {
    "2026-10-02": 4,
    "2026-10-03": 4,
@@ -41,12 +41,20 @@
    "2026-11-07": 3,
    "2026-11-08": 3,
    "2026-11-09": 2,
-   "2026-11-10": 1
+   "2026-11-10": 2
   },
-  "cycles_30d": 58,
+  "cycles_30d": 57,
   "max_gap_hours_30d": 299.5,
-  "distinct_snapshots": 20,
+  "distinct_snapshots": 21,
   "failures": [
+   {
+    "run_id": 42735806961,
+    "when": "2026-11-10T01:26:34+00:00",
+    "category": "unknown",
+    "detail": "step: Alert on CRITICAL schema change (SCHEMA_DRIFT / RETRO_ALTER)",
+    "step": "Alert on CRITICAL schema change (SCHEMA_DRIFT / RETRO_ALTER)",
+    "source": "actions"
+   },
    {
     "run_id": 42650680449,
     "when": "2026-11-09T16:02:25+00:00",
@@ -410,7 +418,7 @@
   ],
   "failures_by_category": {
    "network": 40,
-   "unknown": 5
+   "unknown": 6
   },
   "unread_last_cycle": []
  },
@@ -418,19 +426,53 @@
   "datasets": 223,
   "resources": 1628,
   "organizations": 32,
-  "prov_events": 36,
-  "prov_records": 36,
-  "critical": 7,
+  "prov_events": 38,
+  "prov_records": 38,
+  "critical": 8,
   "datasets_changed": 12,
   "by_type": {
-   "SCHEMA_DRIFT": 7,
-   "CONTENT_MOD": 29,
+   "CONTENT_MOD": 30,
+   "SCHEMA_DRIFT": 8,
    "NOT_FINGERPRINTED": 13,
    "NEW": 1,
    "REMOVED": 1
   }
  },
  "events": [
+  {
+   "when": "2026-11-10T14:45:54+00:00",
+   "type": "CONTENT_MOD",
+   "severity": "WARNING",
+   "dataset_id": "c68396ad-ad0f-4255-a57a-84c97054dd37",
+   "name": "estoque-dos-medicamentos-nas-farmacias-da-rede-municipal-de-saude",
+   "title": "Estoque dos medicamentos nas farmácias da Rede Municipal de Saúde",
+   "summary": "File date updated",
+   "summary_pt": "Data do arquivo atualizada",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": "c68396ad-ad0f-4255-a57a-84c97054dd37.jsonld"
+  },
+  {
+   "when": "2026-11-10T14:45:54+00:00",
+   "type": "SCHEMA_DRIFT",
+   "severity": "CRITICAL",
+   "dataset_id": "12578535-6cf0-4097-94fa-ff6ec3d51988",
+   "name": "diario-oficial",
+   "title": "Diário Oficial",
+   "summary": "2 resource URL(s) changed (2 moved from ? to dados.recife.pe.gov.br:443; 1 plain file → zip); file size updated; file date updated",
+   "summary_pt": "2 URL(s) de recurso alterada(s) (2 movida(s) de ? para dados.recife.pe.gov.br:443; 1 arquivo simples → zip); tamanho do arquivo atualizado; data do arquivo atualizada",
+   "host_pairs": [
+    [
+     "",
+     "dados.recife.pe.gov.br:443",
+     2
+    ]
+   ],
+   "zip_to_plain": 0,
+   "plain_to_zip": 1,
+   "prov_log": "12578535-6cf0-4097-94fa-ff6ec3d51988.jsonld"
+  },
   {
    "when": "2026-11-10T01:26:46+00:00",
    "type": "SCHEMA_DRIFT",
@@ -1160,30 +1202,30 @@
  ],
  "datasets": [
   {
-   "id": "12578535-6cf0-4097-94fa-ff6ec3d51988",
-   "name": "diario-oficial",
-   "title": "Diário Oficial",
-   "organization": "Secretaria de Governo e Participação Social",
-   "resources": 34,
-   "metadata_modified": "2026-11-09T16:47:21.599079",
-   "prov_records": 2,
-   "prov_log": "12578535-6cf0-4097-94fa-ff6ec3d51988.jsonld",
-   "changes": 2,
-   "last_change": "2026-11-10T01:26:46+00:00",
-   "last_type": "SCHEMA_DRIFT"
-  },
-  {
    "id": "c68396ad-ad0f-4255-a57a-84c97054dd37",
    "name": "estoque-dos-medicamentos-nas-farmacias-da-rede-municipal-de-saude",
    "title": "Estoque dos medicamentos nas farmácias da Rede Municipal de Saúde",
    "organization": "Secretaria de Saúde",
    "resources": 9,
-   "metadata_modified": "2026-11-09T10:02:36.486449",
-   "prov_records": 8,
+   "metadata_modified": "2026-11-10T10:02:36.486481",
+   "prov_records": 9,
    "prov_log": "c68396ad-ad0f-4255-a57a-84c97054dd37.jsonld",
-   "changes": 8,
-   "last_change": "2026-11-09T16:02:36+00:00",
+   "changes": 9,
+   "last_change": "2026-11-10T14:45:54+00:00",
    "last_type": "CONTENT_MOD"
+  },
+  {
+   "id": "12578535-6cf0-4097-94fa-ff6ec3d51988",
+   "name": "diario-oficial",
+   "title": "Diário Oficial",
+   "organization": "Secretaria de Governo e Participação Social",
+   "resources": 34,
+   "metadata_modified": "2026-11-10T13:43:39.208623",
+   "prov_records": 3,
+   "prov_log": "12578535-6cf0-4097-94fa-ff6ec3d51988.jsonld",
+   "changes": 3,
+   "last_change": "2026-11-10T14:45:54+00:00",
+   "last_type": "SCHEMA_DRIFT"
   },
   {
    "id": "dca76666-842e-48cb-b005-6670d7212b46",
@@ -4060,28 +4102,18 @@
   }
  ],
  "hosts_now": {
-  "dados.recife.pe.gov.br:443": 1626,
-  "": 2
+  "dados.recife.pe.gov.br:443": 1628
  },
- "urls_without_host": [
-  {
-   "dataset": "diario-oficial",
-   "title": "Diário Oficial",
-   "resource": "Diário Oficial 2026",
-   "format": "CSV",
-   "url": "",
-   "host": ""
-  },
-  {
-   "dataset": "diario-oficial",
-   "title": "Diário Oficial",
-   "resource": "Diário Oficial 2026 Completo",
-   "format": "ZIP",
-   "url": "",
-   "host": ""
-  }
- ],
+ "urls_without_host": [],
  "relocations": [
+  {
+   "from": "",
+   "to": "dados.recife.pe.gov.br:443",
+   "urls": 2,
+   "events": 1,
+   "datasets": 1,
+   "last": "2026-11-10T14:45:54+00:00"
+  },
   {
    "from": "dados.recife.pe.gov.br",
    "to": "dados.recife.pe.gov.br:443",
@@ -4093,6 +4125,6 @@
  ],
  "packaging": {
   "zip_to_plain": 0,
-  "plain_to_zip": 0
+  "plain_to_zip": 1
  }
 }
