@@ -48,8 +48,8 @@ the state every later cycle is compared with.
 | `portal.json` | `portal_url` = `https://dados.recife.pe.gov.br` |
 | `README.md`, `LEIAME.md`, `CITATION.cff` | this text and the citation of this repository |
 
-Everything else is the code of `5ltep-layer4` at commit `6518f04`
-([6518f044244704c3f3835117feeee7d8cf9f8dfc](https://github.com/lsp3cesarschool/5ltep-layer4/commit/6518f044244704c3f3835117feeee7d8cf9f8dfc)). The snapshots, provenance records,
+Everything else is the code of `5ltep-layer4` at commit `7c0b6da`
+([7c0b6da2a50faf12b71e9c23b85ec424d3465a72](https://github.com/lsp3cesarschool/5ltep-layer4/commit/7c0b6da2a50faf12b71e9c23b85ec424d3465a72)). The snapshots, provenance records,
 change log and dashboard data are written here by the workflows.
 
 ## Running it, and adapting it again
@@ -67,7 +67,7 @@ To point it at yet another CKAN portal, change `portal_url` in `portal.json`; se
 ## Reproducibility
 
 Each provenance record carries the fingerprint of the dataset version it describes, the run that
-observed it and the commit of the code that ran (`5ltep:commitSha`). The code is the upstream commit
+observed it and the commit of the code that ran (`cupim:commitSha`; `5ltep:commitSha` in records before 2026-11-10). The code is the upstream commit
 above; everything else is committed by the workflows, so the history of this repository is the
 history of the portal as observed.
 

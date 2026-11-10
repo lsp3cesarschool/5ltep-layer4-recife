@@ -49,8 +49,8 @@ mudança, só o estado com que todos os ciclos seguintes são comparados.
 | `portal.json` | `portal_url` = `https://dados.recife.pe.gov.br` |
 | `README.md`, `LEIAME.md`, `CITATION.cff` | este texto e a citação deste repositório |
 
-Todo o resto é o código do `5ltep-layer4` no commit `6518f04`
-([6518f044244704c3f3835117feeee7d8cf9f8dfc](https://github.com/lsp3cesarschool/5ltep-layer4/commit/6518f044244704c3f3835117feeee7d8cf9f8dfc)). Os snapshots, os registros de
+Todo o resto é o código do `5ltep-layer4` no commit `7c0b6da`
+([7c0b6da2a50faf12b71e9c23b85ec424d3465a72](https://github.com/lsp3cesarschool/5ltep-layer4/commit/7c0b6da2a50faf12b71e9c23b85ec424d3465a72)). Os snapshots, os registros de
 proveniência, o registro de mudanças e os dados do painel são gravados aqui pelos workflows.
 
 ## Como rodar, e como adaptar de novo
@@ -68,7 +68,7 @@ Para apontar para outro portal CKAN, mude `portal_url` no `portal.json`; veja o 
 ## Reprodutibilidade
 
 Cada registro de proveniência traz a impressão digital da versão do conjunto que descreve, a
-execução que a observou e o commit do código que rodou (`5ltep:commitSha`). O código é o commit de
+execução que a observou e o commit do código que rodou (`cupim:commitSha`; `5ltep:commitSha` nos registros anteriores a 10/11/2026). O código é o commit de
 origem acima; todo o resto é gravado pelos workflows, de modo que o histórico deste repositório é o
 histórico do portal tal como observado.
 
