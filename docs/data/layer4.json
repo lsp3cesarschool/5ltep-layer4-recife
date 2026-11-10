@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-10T14:47:07.801662+00:00",
+ "generated_at": "2026-11-10T23:12:22.641723+00:00",
  "toolkit_version": "1.1.0",
  "repository": "lsp3cesarschool/5ltep-layer4-recife",
  "portal": {
@@ -10,8 +10,8 @@
  },
  "monitoring": {
   "since": "2026-10-02T12:57:26+00:00",
-  "last_cycle": "2026-11-10T14:45:54+00:00",
-  "cycles": 87,
+  "last_cycle": "2026-11-10T23:11:07+00:00",
+  "cycles": 88,
   "cycles_by_day": {
    "2026-10-02": 4,
    "2026-10-03": 4,
@@ -41,12 +41,20 @@
    "2026-11-07": 3,
    "2026-11-08": 3,
    "2026-11-09": 2,
-   "2026-11-10": 2
+   "2026-11-10": 3
   },
   "cycles_30d": 57,
   "max_gap_hours_30d": 299.5,
-  "distinct_snapshots": 21,
+  "distinct_snapshots": 22,
   "failures": [
+   {
+    "run_id": 42837350250,
+    "when": "2026-11-10T14:45:38+00:00",
+    "category": "unknown",
+    "detail": "step: Alert on CRITICAL schema change (SCHEMA_DRIFT / RETRO_ALTER)",
+    "step": "Alert on CRITICAL schema change (SCHEMA_DRIFT / RETRO_ALTER)",
+    "source": "actions"
+   },
    {
     "run_id": 42735806961,
     "when": "2026-11-10T01:26:34+00:00",
@@ -418,27 +426,41 @@
   ],
   "failures_by_category": {
    "network": 40,
-   "unknown": 6
+   "unknown": 7
   },
   "unread_last_cycle": []
  },
  "totals": {
   "datasets": 223,
-  "resources": 1628,
+  "resources": 1629,
   "organizations": 32,
-  "prov_events": 38,
-  "prov_records": 38,
-  "critical": 8,
+  "prov_events": 39,
+  "prov_records": 39,
+  "critical": 9,
   "datasets_changed": 12,
   "by_type": {
+   "SCHEMA_DRIFT": 9,
    "CONTENT_MOD": 30,
-   "SCHEMA_DRIFT": 8,
    "NOT_FINGERPRINTED": 13,
    "NEW": 1,
    "REMOVED": 1
   }
  },
  "events": [
+  {
+   "when": "2026-11-10T23:11:07+00:00",
+   "type": "SCHEMA_DRIFT",
+   "severity": "CRITICAL",
+   "dataset_id": "12578535-6cf0-4097-94fa-ff6ec3d51988",
+   "name": "diario-oficial",
+   "title": "Diário Oficial",
+   "summary": "1 resource(s) added; 2 resource URL(s) changed; resource renamed; file size updated; file date updated; resource descriptions edited",
+   "summary_pt": "1 recurso(s) adicionado(s); 2 URL(s) de recurso alterada(s); recurso renomeado; tamanho do arquivo atualizado; data do arquivo atualizada; descrições dos recursos editadas",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": "12578535-6cf0-4097-94fa-ff6ec3d51988.jsonld"
+  },
   {
    "when": "2026-11-10T14:45:54+00:00",
    "type": "CONTENT_MOD",
@@ -1202,6 +1224,19 @@
  ],
  "datasets": [
   {
+   "id": "12578535-6cf0-4097-94fa-ff6ec3d51988",
+   "name": "diario-oficial",
+   "title": "Diário Oficial",
+   "organization": "Secretaria de Governo e Participação Social",
+   "resources": 35,
+   "metadata_modified": "2026-11-10T22:08:22.890340",
+   "prov_records": 4,
+   "prov_log": "12578535-6cf0-4097-94fa-ff6ec3d51988.jsonld",
+   "changes": 4,
+   "last_change": "2026-11-10T23:11:07+00:00",
+   "last_type": "SCHEMA_DRIFT"
+  },
+  {
    "id": "c68396ad-ad0f-4255-a57a-84c97054dd37",
    "name": "estoque-dos-medicamentos-nas-farmacias-da-rede-municipal-de-saude",
    "title": "Estoque dos medicamentos nas farmácias da Rede Municipal de Saúde",
@@ -1213,19 +1248,6 @@
    "changes": 9,
    "last_change": "2026-11-10T14:45:54+00:00",
    "last_type": "CONTENT_MOD"
-  },
-  {
-   "id": "12578535-6cf0-4097-94fa-ff6ec3d51988",
-   "name": "diario-oficial",
-   "title": "Diário Oficial",
-   "organization": "Secretaria de Governo e Participação Social",
-   "resources": 34,
-   "metadata_modified": "2026-11-10T13:43:39.208623",
-   "prov_records": 3,
-   "prov_log": "12578535-6cf0-4097-94fa-ff6ec3d51988.jsonld",
-   "changes": 3,
-   "last_change": "2026-11-10T14:45:54+00:00",
-   "last_type": "SCHEMA_DRIFT"
   },
   {
    "id": "dca76666-842e-48cb-b005-6670d7212b46",
@@ -4102,7 +4124,7 @@
   }
  ],
  "hosts_now": {
-  "dados.recife.pe.gov.br:443": 1628
+  "dados.recife.pe.gov.br:443": 1629
  },
  "urls_without_host": [],
  "relocations": [
