@@ -350,5 +350,13 @@
   "detail": "step: Alert on CRITICAL schema change (SCHEMA_DRIFT / RETRO_ALTER)",
   "step": "Alert on CRITICAL schema change (SCHEMA_DRIFT / RETRO_ALTER)",
   "source": "actions"
+ },
+ {
+  "run_id": 42650680449,
+  "when": "2026-11-09T16:02:25+00:00",
+  "category": "unknown",
+  "detail": "step: Alert on CRITICAL schema change (SCHEMA_DRIFT / RETRO_ALTER)",
+  "step": "Alert on CRITICAL schema change (SCHEMA_DRIFT / RETRO_ALTER)",
+  "source": "actions"
  }
 ]

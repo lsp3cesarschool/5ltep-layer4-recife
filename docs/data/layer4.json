@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-09T16:03:52.800104+00:00",
+ "generated_at": "2026-11-10T01:28:00.622320+00:00",
  "toolkit_version": "1.1.0",
  "repository": "lsp3cesarschool/5ltep-layer4-recife",
  "portal": {
@@ -10,8 +10,8 @@
  },
  "monitoring": {
   "since": "2026-10-02T12:57:26+00:00",
-  "last_cycle": "2026-11-09T16:02:36+00:00",
-  "cycles": 85,
+  "last_cycle": "2026-11-10T01:26:46+00:00",
+  "cycles": 86,
   "cycles_by_day": {
    "2026-10-02": 4,
    "2026-10-03": 4,
@@ -40,12 +40,21 @@
    "2026-11-06": 2,
    "2026-11-07": 3,
    "2026-11-08": 3,
-   "2026-11-09": 2
+   "2026-11-09": 2,
+   "2026-11-10": 1
   },
   "cycles_30d": 58,
   "max_gap_hours_30d": 299.5,
-  "distinct_snapshots": 19,
+  "distinct_snapshots": 20,
   "failures": [
+   {
+    "run_id": 42650680449,
+    "when": "2026-11-09T16:02:25+00:00",
+    "category": "unknown",
+    "detail": "step: Alert on CRITICAL schema change (SCHEMA_DRIFT / RETRO_ALTER)",
+    "step": "Alert on CRITICAL schema change (SCHEMA_DRIFT / RETRO_ALTER)",
+    "source": "actions"
+   },
    {
     "run_id": 41737402007,
     "when": "2026-11-03T23:13:16+00:00",
@@ -401,27 +410,41 @@
   ],
   "failures_by_category": {
    "network": 40,
-   "unknown": 4
+   "unknown": 5
   },
   "unread_last_cycle": []
  },
  "totals": {
   "datasets": 223,
-  "resources": 1626,
+  "resources": 1628,
   "organizations": 32,
-  "prov_events": 35,
-  "prov_records": 35,
-  "critical": 6,
+  "prov_events": 36,
+  "prov_records": 36,
+  "critical": 7,
   "datasets_changed": 12,
   "by_type": {
+   "SCHEMA_DRIFT": 7,
    "CONTENT_MOD": 29,
-   "SCHEMA_DRIFT": 6,
    "NOT_FINGERPRINTED": 13,
    "NEW": 1,
    "REMOVED": 1
   }
  },
  "events": [
+  {
+   "when": "2026-11-10T01:26:46+00:00",
+   "type": "SCHEMA_DRIFT",
+   "severity": "CRITICAL",
+   "dataset_id": "12578535-6cf0-4097-94fa-ff6ec3d51988",
+   "name": "diario-oficial",
+   "title": "Diário Oficial",
+   "summary": "2 resource(s) added",
+   "summary_pt": "2 recurso(s) adicionado(s)",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": "12578535-6cf0-4097-94fa-ff6ec3d51988.jsonld"
+  },
   {
    "when": "2026-11-09T16:02:36+00:00",
    "type": "CONTENT_MOD",
@@ -1137,6 +1160,19 @@
  ],
  "datasets": [
   {
+   "id": "12578535-6cf0-4097-94fa-ff6ec3d51988",
+   "name": "diario-oficial",
+   "title": "Diário Oficial",
+   "organization": "Secretaria de Governo e Participação Social",
+   "resources": 34,
+   "metadata_modified": "2026-11-09T16:47:21.599079",
+   "prov_records": 2,
+   "prov_log": "12578535-6cf0-4097-94fa-ff6ec3d51988.jsonld",
+   "changes": 2,
+   "last_change": "2026-11-10T01:26:46+00:00",
+   "last_type": "SCHEMA_DRIFT"
+  },
+  {
    "id": "c68396ad-ad0f-4255-a57a-84c97054dd37",
    "name": "estoque-dos-medicamentos-nas-farmacias-da-rede-municipal-de-saude",
    "title": "Estoque dos medicamentos nas farmácias da Rede Municipal de Saúde",
@@ -1148,19 +1184,6 @@
    "changes": 8,
    "last_change": "2026-11-09T16:02:36+00:00",
    "last_type": "CONTENT_MOD"
-  },
-  {
-   "id": "12578535-6cf0-4097-94fa-ff6ec3d51988",
-   "name": "diario-oficial",
-   "title": "Diário Oficial",
-   "organization": "Secretaria de Governo e Participação Social",
-   "resources": 32,
-   "metadata_modified": "2026-11-09T16:01:54.696805",
-   "prov_records": 1,
-   "prov_log": "12578535-6cf0-4097-94fa-ff6ec3d51988.jsonld",
-   "changes": 1,
-   "last_change": "2026-11-09T16:02:36+00:00",
-   "last_type": "SCHEMA_DRIFT"
   },
   {
    "id": "dca76666-842e-48cb-b005-6670d7212b46",
@@ -4037,9 +4060,27 @@
   }
  ],
  "hosts_now": {
-  "dados.recife.pe.gov.br:443": 1626
+  "dados.recife.pe.gov.br:443": 1626,
+  "": 2
  },
- "urls_without_host": [],
+ "urls_without_host": [
+  {
+   "dataset": "diario-oficial",
+   "title": "Diário Oficial",
+   "resource": "Diário Oficial 2026",
+   "format": "CSV",
+   "url": "",
+   "host": ""
+  },
+  {
+   "dataset": "diario-oficial",
+   "title": "Diário Oficial",
+   "resource": "Diário Oficial 2026 Completo",
+   "format": "ZIP",
+   "url": "",
+   "host": ""
+  }
+ ],
  "relocations": [
   {
    "from": "dados.recife.pe.gov.br",
