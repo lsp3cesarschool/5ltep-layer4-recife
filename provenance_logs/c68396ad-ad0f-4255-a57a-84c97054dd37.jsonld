@@ -794,6 +794,93 @@
           "cupim:portalUrl": "https://dados.recife.pe.gov.br"
         }
       ]
+    },
+    {
+      "@context": {
+        "prov": "http://www.w3.org/ns/prov#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "cupim": "https://5ltep.example.org/ontology#",
+        "ckan": "https://ckan.org/schema#",
+        "portal": "https://dados.recife.pe.gov.br/"
+      },
+      "@graph": [
+        {
+          "@id": "https://dados.recife.pe.gov.br/dataset/c68396ad-ad0f-4255-a57a-84c97054dd37#40833c5bfc84",
+          "@type": [
+            "prov:Entity",
+            "cupim:DatasetSnapshot"
+          ],
+          "prov:wasGeneratedBy": {
+            "@id": "cupim:run-20261111T140607Z"
+          },
+          "cupim:changeType": "CONTENT_MOD",
+          "cupim:severity": "WARNING",
+          "cupim:datasetId": "c68396ad-ad0f-4255-a57a-84c97054dd37",
+          "cupim:contentHash": "40833c5bfc84db79d2b48bf24417e409b2eb3194c16caa694a24903c3924bebd",
+          "cupim:detectedAt": {
+            "@value": "2026-11-11T14:06:07.928565+00:00",
+            "@type": "xsd:dateTime"
+          },
+          "prov:wasAttributedTo": {
+            "@id": "https://dados.recife.pe.gov.br/organization/secretaria-de-saude"
+          },
+          "prov:wasDerivedFrom": {
+            "@id": "https://dados.recife.pe.gov.br/dataset/c68396ad-ad0f-4255-a57a-84c97054dd37#94b861751924"
+          },
+          "cupim:changeSummary": "File date updated",
+          "cupim:changedFields": [
+            "metadata_modified",
+            "resource.last_modified"
+          ],
+          "cupim:fieldsOutsideFingerprint": [
+            "resource.datastore_active"
+          ],
+          "cupim:resourceUrlChanges": 0,
+          "cupim:hostMoves": 0,
+          "cupim:packagingChanges": 0
+        },
+        {
+          "@id": "cupim:run-20261111T140607Z",
+          "@type": [
+            "prov:Activity",
+            "cupim:MonitoringRun"
+          ],
+          "prov:startedAtTime": {
+            "@value": "2026-11-11T14:06:07.933708+00:00",
+            "@type": "xsd:dateTime"
+          },
+          "prov:endedAtTime": {
+            "@value": "2026-11-11T14:06:07.934454+00:00",
+            "@type": "xsd:dateTime"
+          },
+          "prov:wasAssociatedWith": {
+            "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-recife@e6c78e5"
+          },
+          "prov:used": {
+            "@id": "https://dados.recife.pe.gov.br/api/3/action/package_show?id=c68396ad-ad0f-4255-a57a-84c97054dd37"
+          }
+        },
+        {
+          "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-recife@e6c78e5",
+          "@type": [
+            "prov:Agent",
+            "prov:SoftwareAgent"
+          ],
+          "rdfs:label": "5L-TEP Toolkit v1.1.0 (Layer 4 — Observability & Provenance)",
+          "cupim:repositoryUrl": "https://github.com/lsp3cesarschool/5ltep-layer4-recife",
+          "cupim:commitSha": "e6c78e5612f87b8a1cda5accf49124d555d5ba8d"
+        },
+        {
+          "@id": "https://dados.recife.pe.gov.br/organization/secretaria-de-saude",
+          "@type": [
+            "prov:Agent",
+            "cupim:DataCustodian"
+          ],
+          "rdfs:label": "secretaria-de-saude",
+          "cupim:portalUrl": "https://dados.recife.pe.gov.br"
+        }
+      ]
     }
   ]
 }

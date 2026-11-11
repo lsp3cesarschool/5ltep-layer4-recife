@@ -7,9 +7,9 @@ first monitoring cycle that saw the change).
 
 - **Monitored since:** 2026-10-02
 - **Datasets in the latest snapshot:** 223
-- **Changes recorded as PROV events:** 39 (9 critical)
+- **Changes recorded as PROV events:** 41 (9 critical)
 - **New datasets:** 1
-- **Last change detected:** 2026-11-10 23:11 UTC
+- **Last change detected:** 2026-11-11 14:03 UTC
 
 Types: `CONTENT_MOD` (content changed with a new timestamp), `SCHEMA_DRIFT`
 (resources added, removed, renamed or re-formatted; critical), `RETRO_ALTER`
@@ -20,13 +20,15 @@ Types: `CONTENT_MOD` (content changed with a new timestamp), `SCHEMA_DRIFT`
 
 | Month | PROV events | Critical | New datasets |
 |---|---:|---:|---:|
-| 2026-11 | 20 | 6 | 0 |
+| 2026-11 | 22 | 6 | 0 |
 | 2026-10 | 19 | 3 | 1 |
 
 ## Latest changes
 
 | Detected (UTC) | Dataset | Type | What changed | Provenance |
 |---|---|---|---|---|
+| 2026-11-11 14:03 | [Estoque dos medicamentos nas farmácias da Rede Municipal de Saúde](https://dados.recife.pe.gov.br/dataset/estoque-dos-medicamentos-nas-farmacias-da-rede-municipal-de-saude) | `CONTENT_MOD` | File date updated | [log](provenance_logs/c68396ad-ad0f-4255-a57a-84c97054dd37.jsonld) |
+| 2026-11-11 14:03 | [Diário Oficial](https://dados.recife.pe.gov.br/dataset/diario-oficial) | `CONTENT_MOD` | File date updated; resource descriptions edited | [log](provenance_logs/12578535-6cf0-4097-94fa-ff6ec3d51988.jsonld) |
 | 2026-11-10 23:11 | [Diário Oficial](https://dados.recife.pe.gov.br/dataset/diario-oficial) | `SCHEMA_DRIFT` | 1 resource(s) added; 2 resource URL(s) changed; resource renamed; file size updated; file date updated; resource descriptions edited | [log](provenance_logs/12578535-6cf0-4097-94fa-ff6ec3d51988.jsonld) |
 | 2026-11-10 14:45 | [Estoque dos medicamentos nas farmácias da Rede Municipal de Saúde](https://dados.recife.pe.gov.br/dataset/estoque-dos-medicamentos-nas-farmacias-da-rede-municipal-de-saude) | `CONTENT_MOD` | File date updated | [log](provenance_logs/c68396ad-ad0f-4255-a57a-84c97054dd37.jsonld) |
 | 2026-11-10 14:45 | [Diário Oficial](https://dados.recife.pe.gov.br/dataset/diario-oficial) | `SCHEMA_DRIFT` | 2 resource URL(s) changed (2 moved from ? to dados.recife.pe.gov.br:443; 1 plain file → zip); file size updated; file date updated | [log](provenance_logs/12578535-6cf0-4097-94fa-ff6ec3d51988.jsonld) |

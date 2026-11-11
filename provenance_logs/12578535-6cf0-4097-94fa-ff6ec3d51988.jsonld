@@ -370,6 +370,95 @@
           "cupim:portalUrl": "https://dados.recife.pe.gov.br"
         }
       ]
+    },
+    {
+      "@context": {
+        "prov": "http://www.w3.org/ns/prov#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "cupim": "https://5ltep.example.org/ontology#",
+        "ckan": "https://ckan.org/schema#",
+        "portal": "https://dados.recife.pe.gov.br/"
+      },
+      "@graph": [
+        {
+          "@id": "https://dados.recife.pe.gov.br/dataset/12578535-6cf0-4097-94fa-ff6ec3d51988#a070f086acdb",
+          "@type": [
+            "prov:Entity",
+            "cupim:DatasetSnapshot"
+          ],
+          "prov:wasGeneratedBy": {
+            "@id": "cupim:run-20261111T140607Z"
+          },
+          "cupim:changeType": "CONTENT_MOD",
+          "cupim:severity": "WARNING",
+          "cupim:datasetId": "12578535-6cf0-4097-94fa-ff6ec3d51988",
+          "cupim:contentHash": "a070f086acdb525c0f76b437862844d7496e5207539b9907ec5d088cea63ac6a",
+          "cupim:detectedAt": {
+            "@value": "2026-11-11T14:06:07.928342+00:00",
+            "@type": "xsd:dateTime"
+          },
+          "prov:wasAttributedTo": {
+            "@id": "https://dados.recife.pe.gov.br/organization/secretaria-de-governo"
+          },
+          "prov:wasDerivedFrom": {
+            "@id": "https://dados.recife.pe.gov.br/dataset/12578535-6cf0-4097-94fa-ff6ec3d51988#d249c7d903fb"
+          },
+          "cupim:changeSummary": "File date updated; resource descriptions edited",
+          "cupim:changedFields": [
+            "metadata_modified",
+            "resource.last_modified"
+          ],
+          "cupim:fieldsOutsideFingerprint": [
+            "resource.datastore_active",
+            "resource.description",
+            "resource.mimetype"
+          ],
+          "cupim:resourceUrlChanges": 0,
+          "cupim:hostMoves": 0,
+          "cupim:packagingChanges": 0
+        },
+        {
+          "@id": "cupim:run-20261111T140607Z",
+          "@type": [
+            "prov:Activity",
+            "cupim:MonitoringRun"
+          ],
+          "prov:startedAtTime": {
+            "@value": "2026-11-11T14:06:07.933708+00:00",
+            "@type": "xsd:dateTime"
+          },
+          "prov:endedAtTime": {
+            "@value": "2026-11-11T14:06:07.933796+00:00",
+            "@type": "xsd:dateTime"
+          },
+          "prov:wasAssociatedWith": {
+            "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-recife@e6c78e5"
+          },
+          "prov:used": {
+            "@id": "https://dados.recife.pe.gov.br/api/3/action/package_show?id=12578535-6cf0-4097-94fa-ff6ec3d51988"
+          }
+        },
+        {
+          "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-recife@e6c78e5",
+          "@type": [
+            "prov:Agent",
+            "prov:SoftwareAgent"
+          ],
+          "rdfs:label": "5L-TEP Toolkit v1.1.0 (Layer 4 — Observability & Provenance)",
+          "cupim:repositoryUrl": "https://github.com/lsp3cesarschool/5ltep-layer4-recife",
+          "cupim:commitSha": "e6c78e5612f87b8a1cda5accf49124d555d5ba8d"
+        },
+        {
+          "@id": "https://dados.recife.pe.gov.br/organization/secretaria-de-governo",
+          "@type": [
+            "prov:Agent",
+            "cupim:DataCustodian"
+          ],
+          "rdfs:label": "secretaria-de-governo",
+          "cupim:portalUrl": "https://dados.recife.pe.gov.br"
+        }
+      ]
     }
   ]
 }
