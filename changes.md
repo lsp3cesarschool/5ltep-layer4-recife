@@ -7,9 +7,9 @@ first monitoring cycle that saw the change).
 
 - **Monitored since:** 2026-10-02
 - **Datasets in the latest snapshot:** 223
-- **Changes recorded as PROV events:** 42 (9 critical)
+- **Changes recorded as PROV events:** 43 (9 critical)
 - **New datasets:** 1
-- **Last change detected:** 2026-11-12 00:31 UTC
+- **Last change detected:** 2026-11-12 15:02 UTC
 
 Types: `CONTENT_MOD` (content changed with a new timestamp), `SCHEMA_DRIFT`
 (resources added, removed, renamed or re-formatted; critical), `RETRO_ALTER`
@@ -20,13 +20,14 @@ Types: `CONTENT_MOD` (content changed with a new timestamp), `SCHEMA_DRIFT`
 
 | Month | PROV events | Critical | New datasets |
 |---|---:|---:|---:|
-| 2026-11 | 23 | 6 | 0 |
+| 2026-11 | 24 | 6 | 0 |
 | 2026-10 | 19 | 3 | 1 |
 
 ## Latest changes
 
 | Detected (UTC) | Dataset | Type | What changed | Provenance |
 |---|---|---|---|---|
+| 2026-11-12 15:02 | [Estoque dos medicamentos nas farmácias da Rede Municipal de Saúde](https://dados.recife.pe.gov.br/dataset/estoque-dos-medicamentos-nas-farmacias-da-rede-municipal-de-saude) | `CONTENT_MOD` | File date updated | [log](provenance_logs/c68396ad-ad0f-4255-a57a-84c97054dd37.jsonld) |
 | 2026-11-12 00:31 | [Diário Oficial](https://dados.recife.pe.gov.br/dataset/diario-oficial) | `CONTENT_MOD` | Resource descriptions edited | [log](provenance_logs/12578535-6cf0-4097-94fa-ff6ec3d51988.jsonld) |
 | 2026-11-11 14:03 | [Estoque dos medicamentos nas farmácias da Rede Municipal de Saúde](https://dados.recife.pe.gov.br/dataset/estoque-dos-medicamentos-nas-farmacias-da-rede-municipal-de-saude) | `CONTENT_MOD` | File date updated | [log](provenance_logs/c68396ad-ad0f-4255-a57a-84c97054dd37.jsonld) |
 | 2026-11-11 14:03 | [Diário Oficial](https://dados.recife.pe.gov.br/dataset/diario-oficial) | `CONTENT_MOD` | File date updated; resource descriptions edited | [log](provenance_logs/12578535-6cf0-4097-94fa-ff6ec3d51988.jsonld) |
