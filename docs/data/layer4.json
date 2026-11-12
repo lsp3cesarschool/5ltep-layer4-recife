@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-12T15:03:38.760977+00:00",
+ "generated_at": "2026-11-12T23:32:31.189463+00:00",
  "toolkit_version": "1.1.0",
  "repository": "lsp3cesarschool/5ltep-layer4-recife",
  "portal": {
@@ -10,8 +10,8 @@
  },
  "monitoring": {
   "since": "2026-10-02T12:57:26+00:00",
-  "last_cycle": "2026-11-12T15:02:18+00:00",
-  "cycles": 92,
+  "last_cycle": "2026-11-12T23:30:37+00:00",
+  "cycles": 93,
   "cycles_by_day": {
    "2026-10-02": 4,
    "2026-10-03": 4,
@@ -43,11 +43,11 @@
    "2026-11-09": 2,
    "2026-11-10": 3,
    "2026-11-11": 2,
-   "2026-11-12": 2
+   "2026-11-12": 3
   },
   "cycles_30d": 57,
   "max_gap_hours_30d": 299.5,
-  "distinct_snapshots": 25,
+  "distinct_snapshots": 26,
   "failures": [
    {
     "run_id": 42921178290,
@@ -442,21 +442,35 @@
  },
  "totals": {
   "datasets": 223,
-  "resources": 1629,
+  "resources": 1630,
   "organizations": 32,
-  "prov_events": 43,
-  "prov_records": 43,
-  "critical": 9,
-  "datasets_changed": 12,
+  "prov_events": 44,
+  "prov_records": 44,
+  "critical": 10,
+  "datasets_changed": 13,
   "by_type": {
+   "SCHEMA_DRIFT": 10,
    "CONTENT_MOD": 34,
-   "SCHEMA_DRIFT": 9,
    "NOT_FINGERPRINTED": 13,
    "NEW": 1,
    "REMOVED": 1
   }
  },
  "events": [
+  {
+   "when": "2026-11-12T23:30:37+00:00",
+   "type": "SCHEMA_DRIFT",
+   "severity": "CRITICAL",
+   "dataset_id": "d4516dbf-cd9e-4ef9-853c-7d0c4b993c52",
+   "name": "situacao-final-dos-alunos-por-periodo-letivo",
+   "title": "Situação final dos alunos por período letivo",
+   "summary": "1 resource(s) added; license title changed",
+   "summary_pt": "1 recurso(s) adicionado(s); título da licença alterado",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": "d4516dbf-cd9e-4ef9-853c-7d0c4b993c52.jsonld"
+  },
   {
    "when": "2026-11-12T15:02:18+00:00",
    "type": "CONTENT_MOD",
@@ -1290,6 +1304,19 @@
  ],
  "datasets": [
   {
+   "id": "d4516dbf-cd9e-4ef9-853c-7d0c4b993c52",
+   "name": "situacao-final-dos-alunos-por-periodo-letivo",
+   "title": "Situação final dos alunos por período letivo",
+   "organization": "Secretaria de Educação",
+   "resources": 15,
+   "metadata_modified": "2026-11-12T22:54:00.713457",
+   "prov_records": 1,
+   "prov_log": "d4516dbf-cd9e-4ef9-853c-7d0c4b993c52.jsonld",
+   "changes": 1,
+   "last_change": "2026-11-12T23:30:37+00:00",
+   "last_type": "SCHEMA_DRIFT"
+  },
+  {
    "id": "c68396ad-ad0f-4255-a57a-84c97054dd37",
    "name": "estoque-dos-medicamentos-nas-farmacias-da-rede-municipal-de-saude",
    "title": "Estoque dos medicamentos nas farmácias da Rede Municipal de Saúde",
@@ -1998,19 +2025,6 @@
    "organization": "Secretaria de Cidadania e Cultura de Paz",
    "resources": 1,
    "metadata_modified": "2026-03-06T18:36:55.396400",
-   "prov_records": 0,
-   "prov_log": null,
-   "changes": 0,
-   "last_change": null,
-   "last_type": null
-  },
-  {
-   "id": "d4516dbf-cd9e-4ef9-853c-7d0c4b993c52",
-   "name": "situacao-final-dos-alunos-por-periodo-letivo",
-   "title": "Situação final dos alunos por período letivo",
-   "organization": "Secretaria de Educação",
-   "resources": 14,
-   "metadata_modified": "2026-03-06T15:18:34.028131",
    "prov_records": 0,
    "prov_log": null,
    "changes": 0,
@@ -4190,7 +4204,7 @@
   }
  ],
  "hosts_now": {
-  "dados.recife.pe.gov.br:443": 1629
+  "dados.recife.pe.gov.br:443": 1630
  },
  "urls_without_host": [],
  "relocations": [
