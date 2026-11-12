@@ -1,11 +1,11 @@
 {
-  "status": "PENDING",
-  "checked_at": "2026-11-11T11:19:35.833025+00:00",
-  "duration_seconds": 127.97,
+  "status": "STALE",
+  "checked_at": "2026-11-12T11:37:41.636430+00:00",
+  "duration_seconds": 127.25,
   "portal_url": "https://dados.recife.pe.gov.br",
-  "snapshot_run_id": "20261111T055811Z",
-  "snapshot_file": "snapshot_20261110T231107Z.json",
-  "snapshot_age_hours": 5.36,
+  "snapshot_run_id": "20261112T003131Z",
+  "snapshot_file": "snapshot_20261112T003131Z.json",
+  "snapshot_age_hours": 11.1,
   "monitor_tolerance_hours": 7,
   "coverage_ratio": 1.0,
   "min_coverage_ratio": 0.9,
@@ -18,18 +18,10 @@
   },
   "modified": [
     {
-      "id": "12578535-6cf0-4097-94fa-ff6ec3d51988",
-      "name": "diario-oficial",
-      "snapshot_metadata_modified": "2026-11-10T22:08:22.890340",
-      "live_metadata_modified": "2026-11-11T10:13:42.468967",
-      "snapshot_num_resources": 35,
-      "live_num_resources": 35
-    },
-    {
       "id": "c68396ad-ad0f-4255-a57a-84c97054dd37",
       "name": "estoque-dos-medicamentos-nas-farmacias-da-rede-municipal-de-saude",
-      "snapshot_metadata_modified": "2026-11-10T10:02:36.486481",
-      "live_metadata_modified": "2026-11-11T10:02:39.719549",
+      "snapshot_metadata_modified": "2026-11-11T10:02:39.719549",
+      "live_metadata_modified": "2026-11-12T10:02:43.281273",
       "snapshot_num_resources": 9,
       "live_num_resources": 9
     }
