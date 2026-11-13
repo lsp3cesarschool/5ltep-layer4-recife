@@ -1,11 +1,11 @@
 {
- "status": "STALE",
- "checked_at": "2026-11-12T11:37:41.636430+00:00",
- "duration_seconds": 127.25,
+ "status": "PENDING",
+ "checked_at": "2026-11-13T11:24:01.669096+00:00",
+ "duration_seconds": 227.19,
  "portal_url": "https://dados.recife.pe.gov.br",
- "snapshot_run_id": "20261112T003131Z",
- "snapshot_file": "snapshot_20261112T003131Z.json",
- "snapshot_age_hours": 11.1,
+ "snapshot_run_id": "20261113T062715Z",
+ "snapshot_file": "snapshot_20261112T233037Z.json",
+ "snapshot_age_hours": 4.95,
  "monitor_tolerance_hours": 7,
  "coverage_ratio": 1.0,
  "min_coverage_ratio": 0.9,
@@ -20,13 +20,13 @@
   {
    "id": "c68396ad-ad0f-4255-a57a-84c97054dd37",
    "name": "estoque-dos-medicamentos-nas-farmacias-da-rede-municipal-de-saude",
-   "snapshot_metadata_modified": "2026-11-11T10:02:39.719549",
-   "live_metadata_modified": "2026-11-12T10:02:43.281273",
+   "snapshot_metadata_modified": "2026-11-12T10:02:43.281273",
+   "live_metadata_modified": "2026-11-13T10:02:42.647092",
    "snapshot_num_resources": 9,
    "live_num_resources": 9
   }
  ],
  "errors": [],
- "sentence": "⚠️ **Cross-check stale** — last verified 2026-11-12 11:37 UTC. 1 unreconciled divergence(s); latest snapshot is 11.1h old (> 7h). Monitor workflow may need attention.",
- "sentence_pt": "⚠️ **Verificação cruzada desatualizada** — última verificação em 2026-11-12 11:37 UTC. 1 divergência(s) não reconciliada(s); o snapshot mais recente tem 11,1 h (> 7 h). O workflow de monitoramento pode precisar de atenção."
+ "sentence": "⏳ **Cross-check pending** — last verified 2026-11-13 11:24 UTC. 1 divergence(s) detected; next monitor run will reconcile (snapshot age 4.9h ≤ 7h tolerance).",
+ "sentence_pt": "⏳ **Verificação cruzada pendente** — última verificação em 2026-11-13 11:24 UTC. 1 divergência(s) detectada(s); a próxima execução do monitoramento vai reconciliá-las (snapshot com 4,9 h ≤ tolerância de 7 h)."
 }
