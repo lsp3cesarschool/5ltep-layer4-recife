@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-15T06:15:27.737444+00:00",
+ "generated_at": "2026-11-15T18:48:37.938889+00:00",
  "toolkit_version": "1.1.0",
  "repository": "lsp3cesarschool/5ltep-layer4-recife",
  "portal": {
@@ -10,8 +10,8 @@
  },
  "monitoring": {
   "since": "2026-10-02T12:57:26+00:00",
-  "last_cycle": "2026-11-15T06:14:09+00:00",
-  "cycles": 99,
+  "last_cycle": "2026-11-15T18:45:41+00:00",
+  "cycles": 100,
   "cycles_by_day": {
    "2026-10-02": 4,
    "2026-10-03": 4,
@@ -46,11 +46,11 @@
    "2026-11-12": 3,
    "2026-11-13": 2,
    "2026-11-14": 3,
-   "2026-11-15": 1
+   "2026-11-15": 2
   },
-  "cycles_30d": 54,
+  "cycles_30d": 53,
   "max_gap_hours_30d": 299.5,
-  "distinct_snapshots": 27,
+  "distinct_snapshots": 28,
   "failures": [
    {
     "run_id": 43329420542,
@@ -449,25 +449,56 @@
    "network": 40,
    "unknown": 9
   },
-  "unread_last_cycle": []
+  "unread_last_cycle": [
+   "acidentes-de-transito-com-e-sem-vitimas",
+   "gerencia-de-promocao-e-defesa-dos-direitos-humanos-divisao-da-pessoa-com-deficiencia"
+  ]
  },
  "totals": {
-  "datasets": 223,
-  "resources": 1630,
+  "datasets": 221,
+  "resources": 1615,
   "organizations": 32,
   "prov_events": 45,
   "prov_records": 45,
   "critical": 10,
   "datasets_changed": 13,
   "by_type": {
+   "REMOVED": 3,
    "CONTENT_MOD": 35,
    "SCHEMA_DRIFT": 10,
    "NOT_FINGERPRINTED": 13,
-   "NEW": 1,
-   "REMOVED": 1
+   "NEW": 1
   }
  },
  "events": [
+  {
+   "when": "2026-11-15T18:45:41+00:00",
+   "type": "REMOVED",
+   "severity": "WARNING",
+   "dataset_id": "9e33ec31-9406-44a6-84c9-8923088a9151",
+   "name": "gerencia-de-promocao-e-defesa-dos-direitos-humanos-divisao-da-pessoa-com-deficiencia",
+   "title": "Gerência de Promoção e Defesa dos Direitos Humanos Divisão da Pessoa com Deficiência",
+   "summary": "Dataset no longer listed",
+   "summary_pt": "Conjunto deixou de ser listado",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": null
+  },
+  {
+   "when": "2026-11-15T18:45:41+00:00",
+   "type": "REMOVED",
+   "severity": "WARNING",
+   "dataset_id": "fdd001d5-05ba-46cd-9edf-5c5a6b58351f",
+   "name": "acidentes-de-transito-com-e-sem-vitimas",
+   "title": "Chamados de Sinistros (Acidentes) de Trânsito com e sem vitimas 2015 a 2024",
+   "summary": "Dataset no longer listed",
+   "summary_pt": "Conjunto deixou de ser listado",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": null
+  },
   {
    "when": "2026-11-13T19:34:15+00:00",
    "type": "CONTENT_MOD",
@@ -3123,19 +3154,6 @@
    "last_type": null
   },
   {
-   "id": "9e33ec31-9406-44a6-84c9-8923088a9151",
-   "name": "gerencia-de-promocao-e-defesa-dos-direitos-humanos-divisao-da-pessoa-com-deficiencia",
-   "title": "Gerência de Promoção e Defesa dos Direitos Humanos Divisão da Pessoa com Deficiência",
-   "organization": "Secretaria de Direitos Humanos e Juventude",
-   "resources": 4,
-   "metadata_modified": "2026-03-02T14:44:53.651190",
-   "prov_records": 0,
-   "prov_log": null,
-   "changes": 0,
-   "last_change": null,
-   "last_type": null
-  },
-  {
    "id": "e98a1225-a33f-486e-b3cc-196c7457f1d9",
    "name": "gabpe-processos-de-aquisicoes-de-bens-e-servicos-oriundos-de-dispensas-ou-inexigibilidades-covid-19",
    "title": "GABPE - Processos de aquisições de bens e serviços oriundos de Dispensas ou Inexigibilidades - Covid-19",
@@ -3545,19 +3563,6 @@
    "organization": "Secretaria de Finanças",
    "resources": 2,
    "metadata_modified": "2026-07-03T02:03:03.171578",
-   "prov_records": 0,
-   "prov_log": null,
-   "changes": 0,
-   "last_change": null,
-   "last_type": null
-  },
-  {
-   "id": "fdd001d5-05ba-46cd-9edf-5c5a6b58351f",
-   "name": "acidentes-de-transito-com-e-sem-vitimas",
-   "title": "Chamados de Sinistros (Acidentes) de Trânsito com e sem vitimas 2015 a 2024",
-   "organization": "Autarquia de Trânsito e Transporte Urbano do Recife - CTTU",
-   "resources": 11,
-   "metadata_modified": "2026-03-02T13:45:27.485944",
    "prov_records": 0,
    "prov_log": null,
    "changes": 0,
@@ -4229,7 +4234,7 @@
   }
  ],
  "hosts_now": {
-  "dados.recife.pe.gov.br:443": 1630
+  "dados.recife.pe.gov.br:443": 1615
  },
  "urls_without_host": [],
  "relocations": [
