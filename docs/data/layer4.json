@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-15T18:48:37.938889+00:00",
+ "generated_at": "2026-11-16T06:12:40.106904+00:00",
  "toolkit_version": "1.1.0",
  "repository": "lsp3cesarschool/5ltep-layer4-recife",
  "portal": {
@@ -52,6 +52,14 @@
   "max_gap_hours_30d": 299.5,
   "distinct_snapshots": 28,
   "failures": [
+   {
+    "run_id": 43815160091,
+    "when": "2026-11-16T06:12:28+00:00",
+    "category": "portal_down",
+    "detail": "HTTP 503 Service Unavailable (/api/3/action/package_list)",
+    "step": "Run monitoring cycle",
+    "source": "cycle"
+   },
    {
     "run_id": 43329420542,
     "when": "2026-11-12T23:30:26+00:00",
@@ -447,7 +455,8 @@
   ],
   "failures_by_category": {
    "network": 40,
-   "unknown": 9
+   "unknown": 9,
+   "portal_down": 1
   },
   "unread_last_cycle": [
    "acidentes-de-transito-com-e-sem-vitimas",

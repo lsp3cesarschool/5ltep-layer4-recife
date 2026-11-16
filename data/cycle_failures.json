@@ -390,5 +390,13 @@
   "detail": "step: Alert on CRITICAL schema change (SCHEMA_DRIFT / RETRO_ALTER)",
   "step": "Alert on CRITICAL schema change (SCHEMA_DRIFT / RETRO_ALTER)",
   "source": "actions"
+ },
+ {
+  "run_id": 43815160091,
+  "when": "2026-11-16T06:12:28+00:00",
+  "category": "portal_down",
+  "detail": "HTTP 503 Service Unavailable (/api/3/action/package_list)",
+  "step": "Run monitoring cycle",
+  "source": "cycle"
  }
 ]
