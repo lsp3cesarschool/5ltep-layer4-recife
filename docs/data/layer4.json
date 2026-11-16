@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-16T06:12:40.106904+00:00",
+ "generated_at": "2026-11-16T21:57:24.469021+00:00",
  "toolkit_version": "1.1.0",
  "repository": "lsp3cesarschool/5ltep-layer4-recife",
  "portal": {
@@ -10,8 +10,8 @@
  },
  "monitoring": {
   "since": "2026-10-02T12:57:26+00:00",
-  "last_cycle": "2026-11-15T18:45:41+00:00",
-  "cycles": 100,
+  "last_cycle": "2026-11-16T21:55:46+00:00",
+  "cycles": 101,
   "cycles_by_day": {
    "2026-10-02": 4,
    "2026-10-03": 4,
@@ -46,11 +46,12 @@
    "2026-11-12": 3,
    "2026-11-13": 2,
    "2026-11-14": 3,
-   "2026-11-15": 2
+   "2026-11-15": 2,
+   "2026-11-16": 1
   },
-  "cycles_30d": 53,
+  "cycles_30d": 49,
   "max_gap_hours_30d": 299.5,
-  "distinct_snapshots": 28,
+  "distinct_snapshots": 29,
   "failures": [
    {
     "run_id": 43815160091,
@@ -458,28 +459,67 @@
    "unknown": 9,
    "portal_down": 1
   },
-  "unread_last_cycle": [
-   "acidentes-de-transito-com-e-sem-vitimas",
-   "gerencia-de-promocao-e-defesa-dos-direitos-humanos-divisao-da-pessoa-com-deficiencia"
-  ]
+  "unread_last_cycle": []
  },
  "totals": {
-  "datasets": 221,
-  "resources": 1615,
+  "datasets": 223,
+  "resources": 1630,
   "organizations": 32,
-  "prov_events": 45,
-  "prov_records": 45,
+  "prov_events": 46,
+  "prov_records": 46,
   "critical": 10,
   "datasets_changed": 13,
   "by_type": {
+   "NEW": 3,
+   "CONTENT_MOD": 36,
    "REMOVED": 3,
-   "CONTENT_MOD": 35,
    "SCHEMA_DRIFT": 10,
-   "NOT_FINGERPRINTED": 13,
-   "NEW": 1
+   "NOT_FINGERPRINTED": 13
   }
  },
  "events": [
+  {
+   "when": "2026-11-16T21:55:46+00:00",
+   "type": "NEW",
+   "severity": "INFO",
+   "dataset_id": "9e33ec31-9406-44a6-84c9-8923088a9151",
+   "name": "gerencia-de-promocao-e-defesa-dos-direitos-humanos-divisao-da-pessoa-com-deficiencia",
+   "title": "Gerência de Promoção e Defesa dos Direitos Humanos Divisão da Pessoa com Deficiência",
+   "summary": "Dataset published (4 resources)",
+   "summary_pt": "Conjunto publicado (4 recursos)",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": null
+  },
+  {
+   "when": "2026-11-16T21:55:46+00:00",
+   "type": "CONTENT_MOD",
+   "severity": "WARNING",
+   "dataset_id": "c68396ad-ad0f-4255-a57a-84c97054dd37",
+   "name": "estoque-dos-medicamentos-nas-farmacias-da-rede-municipal-de-saude",
+   "title": "Estoque dos medicamentos nas farmácias da Rede Municipal de Saúde",
+   "summary": "File date updated",
+   "summary_pt": "Data do arquivo atualizada",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": "c68396ad-ad0f-4255-a57a-84c97054dd37.jsonld"
+  },
+  {
+   "when": "2026-11-16T21:55:46+00:00",
+   "type": "NEW",
+   "severity": "INFO",
+   "dataset_id": "fdd001d5-05ba-46cd-9edf-5c5a6b58351f",
+   "name": "acidentes-de-transito-com-e-sem-vitimas",
+   "title": "Chamados de Sinistros (Acidentes) de Trânsito com e sem vitimas 2015 a 2024",
+   "summary": "Dataset published (11 resources)",
+   "summary_pt": "Conjunto publicado (11 recursos)",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": null
+  },
   {
    "when": "2026-11-15T18:45:41+00:00",
    "type": "REMOVED",
@@ -1374,12 +1414,38 @@
    "title": "Estoque dos medicamentos nas farmácias da Rede Municipal de Saúde",
    "organization": "Secretaria de Saúde",
    "resources": 9,
-   "metadata_modified": "2026-11-13T10:02:42.647092",
-   "prov_records": 12,
+   "metadata_modified": "2026-11-16T10:02:58.966185",
+   "prov_records": 13,
    "prov_log": "c68396ad-ad0f-4255-a57a-84c97054dd37.jsonld",
-   "changes": 12,
-   "last_change": "2026-11-13T19:34:15+00:00",
+   "changes": 13,
+   "last_change": "2026-11-16T21:55:46+00:00",
    "last_type": "CONTENT_MOD"
+  },
+  {
+   "id": "9e33ec31-9406-44a6-84c9-8923088a9151",
+   "name": "gerencia-de-promocao-e-defesa-dos-direitos-humanos-divisao-da-pessoa-com-deficiencia",
+   "title": "Gerência de Promoção e Defesa dos Direitos Humanos Divisão da Pessoa com Deficiência",
+   "organization": "Secretaria de Direitos Humanos e Juventude",
+   "resources": 4,
+   "metadata_modified": "2026-03-02T14:44:53.651190",
+   "prov_records": 0,
+   "prov_log": null,
+   "changes": 1,
+   "last_change": "2026-11-15T18:45:41+00:00",
+   "last_type": "REMOVED"
+  },
+  {
+   "id": "fdd001d5-05ba-46cd-9edf-5c5a6b58351f",
+   "name": "acidentes-de-transito-com-e-sem-vitimas",
+   "title": "Chamados de Sinistros (Acidentes) de Trânsito com e sem vitimas 2015 a 2024",
+   "organization": "Autarquia de Trânsito e Transporte Urbano do Recife - CTTU",
+   "resources": 11,
+   "metadata_modified": "2026-03-02T13:45:27.485944",
+   "prov_records": 0,
+   "prov_log": null,
+   "changes": 1,
+   "last_change": "2026-11-15T18:45:41+00:00",
+   "last_type": "REMOVED"
   },
   {
    "id": "d4516dbf-cd9e-4ef9-853c-7d0c4b993c52",
@@ -4243,7 +4309,7 @@
   }
  ],
  "hosts_now": {
-  "dados.recife.pe.gov.br:443": 1615
+  "dados.recife.pe.gov.br:443": 1630
  },
  "urls_without_host": [],
  "relocations": [
