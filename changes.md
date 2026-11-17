@@ -7,9 +7,9 @@ first monitoring cycle that saw the change).
 
 - **Monitored since:** 2026-10-02
 - **Datasets in the latest snapshot:** 223
-- **Changes recorded as PROV events:** 46 (10 critical)
+- **Changes recorded as PROV events:** 47 (10 critical)
 - **New datasets:** 3
-- **Last change detected:** 2026-11-16 21:55 UTC
+- **Last change detected:** 2026-11-17 20:47 UTC
 
 Types: `CONTENT_MOD` (content changed with a new timestamp), `SCHEMA_DRIFT`
 (resources added, removed, renamed or re-formatted; critical), `RETRO_ALTER`
@@ -20,13 +20,14 @@ Types: `CONTENT_MOD` (content changed with a new timestamp), `SCHEMA_DRIFT`
 
 | Month | PROV events | Critical | New datasets |
 |---|---:|---:|---:|
-| 2026-11 | 27 | 7 | 2 |
+| 2026-11 | 28 | 7 | 2 |
 | 2026-10 | 19 | 3 | 1 |
 
 ## Latest changes
 
 | Detected (UTC) | Dataset | Type | What changed | Provenance |
 |---|---|---|---|---|
+| 2026-11-17 20:47 | [Estoque dos medicamentos nas farmácias da Rede Municipal de Saúde](https://dados.recife.pe.gov.br/dataset/estoque-dos-medicamentos-nas-farmacias-da-rede-municipal-de-saude) | `CONTENT_MOD` | File date updated | [log](provenance_logs/c68396ad-ad0f-4255-a57a-84c97054dd37.jsonld) |
 | 2026-11-16 21:55 | [Gerência de Promoção e Defesa dos Direitos Humanos Divisão da Pessoa com Deficiência](https://dados.recife.pe.gov.br/dataset/gerencia-de-promocao-e-defesa-dos-direitos-humanos-divisao-da-pessoa-com-deficiencia) | `NEW` | Dataset published (4 resources) |  |
 | 2026-11-16 21:55 | [Estoque dos medicamentos nas farmácias da Rede Municipal de Saúde](https://dados.recife.pe.gov.br/dataset/estoque-dos-medicamentos-nas-farmacias-da-rede-municipal-de-saude) | `CONTENT_MOD` | File date updated | [log](provenance_logs/c68396ad-ad0f-4255-a57a-84c97054dd37.jsonld) |
 | 2026-11-16 21:55 | [Chamados de Sinistros (Acidentes) de Trânsito com e sem vitimas 2015 a 2024](https://dados.recife.pe.gov.br/dataset/acidentes-de-transito-com-e-sem-vitimas) | `NEW` | Dataset published (11 resources) |  |
