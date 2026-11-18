@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-18T07:13:38.878566+00:00",
+ "generated_at": "2026-11-18T20:25:42.874369+00:00",
  "toolkit_version": "1.1.0",
  "repository": "lsp3cesarschool/5ltep-layer4-recife",
  "portal": {
@@ -10,8 +10,8 @@
  },
  "monitoring": {
   "since": "2026-10-02T12:57:26+00:00",
-  "last_cycle": "2026-11-18T07:12:45+00:00",
-  "cycles": 104,
+  "last_cycle": "2026-11-18T20:24:07+00:00",
+  "cycles": 105,
   "cycles_by_day": {
    "2026-10-02": 4,
    "2026-10-03": 4,
@@ -49,11 +49,11 @@
    "2026-11-15": 2,
    "2026-11-16": 1,
    "2026-11-17": 2,
-   "2026-11-18": 1
+   "2026-11-18": 2
   },
   "cycles_30d": 47,
   "max_gap_hours_30d": 299.5,
-  "distinct_snapshots": 30,
+  "distinct_snapshots": 31,
   "failures": [
    {
     "run_id": 43815160091,
@@ -467,12 +467,12 @@
   "datasets": 223,
   "resources": 1630,
   "organizations": 32,
-  "prov_events": 47,
-  "prov_records": 47,
+  "prov_events": 49,
+  "prov_records": 49,
   "critical": 10,
   "datasets_changed": 13,
   "by_type": {
-   "CONTENT_MOD": 37,
+   "CONTENT_MOD": 39,
    "NEW": 3,
    "REMOVED": 3,
    "SCHEMA_DRIFT": 10,
@@ -480,6 +480,34 @@
   }
  },
  "events": [
+  {
+   "when": "2026-11-18T20:24:07+00:00",
+   "type": "CONTENT_MOD",
+   "severity": "WARNING",
+   "dataset_id": "c68396ad-ad0f-4255-a57a-84c97054dd37",
+   "name": "estoque-dos-medicamentos-nas-farmacias-da-rede-municipal-de-saude",
+   "title": "Estoque dos medicamentos nas farmácias da Rede Municipal de Saúde",
+   "summary": "File date updated",
+   "summary_pt": "Data do arquivo atualizada",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": "c68396ad-ad0f-4255-a57a-84c97054dd37.jsonld"
+  },
+  {
+   "when": "2026-11-18T20:24:07+00:00",
+   "type": "CONTENT_MOD",
+   "severity": "WARNING",
+   "dataset_id": "12578535-6cf0-4097-94fa-ff6ec3d51988",
+   "name": "diario-oficial",
+   "title": "Diário Oficial",
+   "summary": "File size updated; file date updated",
+   "summary_pt": "Tamanho do arquivo atualizado; data do arquivo atualizada",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": "12578535-6cf0-4097-94fa-ff6ec3d51988.jsonld"
+  },
   {
    "when": "2026-11-17T20:47:32+00:00",
    "type": "CONTENT_MOD",
@@ -1430,11 +1458,24 @@
    "title": "Estoque dos medicamentos nas farmácias da Rede Municipal de Saúde",
    "organization": "Secretaria de Saúde",
    "resources": 9,
-   "metadata_modified": "2026-11-17T10:03:31.484878",
-   "prov_records": 14,
+   "metadata_modified": "2026-11-18T10:02:52.454868",
+   "prov_records": 15,
    "prov_log": "c68396ad-ad0f-4255-a57a-84c97054dd37.jsonld",
-   "changes": 14,
-   "last_change": "2026-11-17T20:47:32+00:00",
+   "changes": 15,
+   "last_change": "2026-11-18T20:24:07+00:00",
+   "last_type": "CONTENT_MOD"
+  },
+  {
+   "id": "12578535-6cf0-4097-94fa-ff6ec3d51988",
+   "name": "diario-oficial",
+   "title": "Diário Oficial",
+   "organization": "Secretaria de Governo e Participação Social",
+   "resources": 35,
+   "metadata_modified": "2026-11-18T18:56:31.618818",
+   "prov_records": 7,
+   "prov_log": "12578535-6cf0-4097-94fa-ff6ec3d51988.jsonld",
+   "changes": 7,
+   "last_change": "2026-11-18T20:24:07+00:00",
    "last_type": "CONTENT_MOD"
   },
   {
@@ -1475,19 +1516,6 @@
    "changes": 1,
    "last_change": "2026-11-12T23:30:37+00:00",
    "last_type": "SCHEMA_DRIFT"
-  },
-  {
-   "id": "12578535-6cf0-4097-94fa-ff6ec3d51988",
-   "name": "diario-oficial",
-   "title": "Diário Oficial",
-   "organization": "Secretaria de Governo e Participação Social",
-   "resources": 35,
-   "metadata_modified": "2026-11-11T18:23:18.728314",
-   "prov_records": 6,
-   "prov_log": "12578535-6cf0-4097-94fa-ff6ec3d51988.jsonld",
-   "changes": 6,
-   "last_change": "2026-11-12T00:31:31+00:00",
-   "last_type": "CONTENT_MOD"
   },
   {
    "id": "dca76666-842e-48cb-b005-6670d7212b46",
