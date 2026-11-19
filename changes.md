@@ -7,9 +7,9 @@ first monitoring cycle that saw the change).
 
 - **Monitored since:** 2026-10-02
 - **Datasets in the latest snapshot:** 223
-- **Changes recorded as PROV events:** 49 (10 critical)
+- **Changes recorded as PROV events:** 54 (10 critical)
 - **New datasets:** 3
-- **Last change detected:** 2026-11-18 20:24 UTC
+- **Last change detected:** 2026-11-19 20:27 UTC
 
 Types: `CONTENT_MOD` (content changed with a new timestamp), `SCHEMA_DRIFT`
 (resources added, removed, renamed or re-formatted; critical), `RETRO_ALTER`
@@ -20,13 +20,18 @@ Types: `CONTENT_MOD` (content changed with a new timestamp), `SCHEMA_DRIFT`
 
 | Month | PROV events | Critical | New datasets |
 |---|---:|---:|---:|
-| 2026-11 | 30 | 7 | 2 |
+| 2026-11 | 35 | 7 | 2 |
 | 2026-10 | 19 | 3 | 1 |
 
 ## Latest changes
 
 | Detected (UTC) | Dataset | Type | What changed | Provenance |
 |---|---|---|---|---|
+| 2026-11-19 20:27 | [Licenciamento Urbanístico](https://dados.recife.pe.gov.br/dataset/licenciamento-urbanistico) | `CONTENT_MOD` | File size updated; file date updated; license title changed | [log](provenance_logs/f79dbcdf-ec99-4f4c-9b84-b33175c35528.jsonld) |
+| 2026-11-19 20:27 | [Licenciamento Sanitário](https://dados.recife.pe.gov.br/dataset/licenciamento-sanitario) | `CONTENT_MOD` | File size updated; file date updated; license title changed | [log](provenance_logs/8535916b-588f-4006-bb1a-5d9c587a92d7.jsonld) |
+| 2026-11-19 20:27 | [Licenciamento Ambiental](https://dados.recife.pe.gov.br/dataset/licenciamento-ambiental) | `CONTENT_MOD` | File size updated; file date updated; license title changed | [log](provenance_logs/75869ab7-ccce-40d6-aed6-4afca4c8cc82.jsonld) |
+| 2026-11-19 20:27 | [Estoque dos medicamentos nas farmácias da Rede Municipal de Saúde](https://dados.recife.pe.gov.br/dataset/estoque-dos-medicamentos-nas-farmacias-da-rede-municipal-de-saude) | `CONTENT_MOD` | File date updated | [log](provenance_logs/c68396ad-ad0f-4255-a57a-84c97054dd37.jsonld) |
+| 2026-11-19 20:27 | [Diário Oficial](https://dados.recife.pe.gov.br/dataset/diario-oficial) | `CONTENT_MOD` | File size updated; file date updated | [log](provenance_logs/12578535-6cf0-4097-94fa-ff6ec3d51988.jsonld) |
 | 2026-11-18 20:24 | [Estoque dos medicamentos nas farmácias da Rede Municipal de Saúde](https://dados.recife.pe.gov.br/dataset/estoque-dos-medicamentos-nas-farmacias-da-rede-municipal-de-saude) | `CONTENT_MOD` | File date updated | [log](provenance_logs/c68396ad-ad0f-4255-a57a-84c97054dd37.jsonld) |
 | 2026-11-18 20:24 | [Diário Oficial](https://dados.recife.pe.gov.br/dataset/diario-oficial) | `CONTENT_MOD` | File size updated; file date updated | [log](provenance_logs/12578535-6cf0-4097-94fa-ff6ec3d51988.jsonld) |
 | 2026-11-17 20:47 | [Estoque dos medicamentos nas farmácias da Rede Municipal de Saúde](https://dados.recife.pe.gov.br/dataset/estoque-dos-medicamentos-nas-farmacias-da-rede-municipal-de-saude) | `CONTENT_MOD` | File date updated | [log](provenance_logs/c68396ad-ad0f-4255-a57a-84c97054dd37.jsonld) |

@@ -363,6 +363,94 @@
           "5ltep:portalUrl": "https://dados.recife.pe.gov.br"
         }
       ]
+    },
+    {
+      "@context": {
+        "prov": "http://www.w3.org/ns/prov#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "cupim": "https://5ltep.example.org/ontology#",
+        "ckan": "https://ckan.org/schema#",
+        "portal": "https://dados.recife.pe.gov.br/"
+      },
+      "@graph": [
+        {
+          "@id": "https://dados.recife.pe.gov.br/dataset/75869ab7-ccce-40d6-aed6-4afca4c8cc82#55534aa0def6",
+          "@type": [
+            "prov:Entity",
+            "cupim:DatasetSnapshot"
+          ],
+          "prov:wasGeneratedBy": {
+            "@id": "cupim:run-20261119T202836Z"
+          },
+          "cupim:changeType": "CONTENT_MOD",
+          "cupim:severity": "WARNING",
+          "cupim:datasetId": "75869ab7-ccce-40d6-aed6-4afca4c8cc82",
+          "cupim:contentHash": "55534aa0def6371433b0c3c47089ce5474bf3c52c4bec3007f0afdb4deda7136",
+          "cupim:detectedAt": {
+            "@value": "2026-11-19T20:28:36.445194+00:00",
+            "@type": "xsd:dateTime"
+          },
+          "prov:wasAttributedTo": {
+            "@id": "https://dados.recife.pe.gov.br/organization/secretaria-de-planejamento-urbano"
+          },
+          "prov:wasDerivedFrom": {
+            "@id": "https://dados.recife.pe.gov.br/dataset/75869ab7-ccce-40d6-aed6-4afca4c8cc82#a0aa8097daa5"
+          },
+          "cupim:changeSummary": "File size updated; file date updated; license title changed",
+          "cupim:changedFields": [
+            "metadata_modified",
+            "resource.size",
+            "resource.last_modified"
+          ],
+          "cupim:fieldsOutsideFingerprint": [
+            "license_title"
+          ],
+          "cupim:resourceUrlChanges": 0,
+          "cupim:hostMoves": 0,
+          "cupim:packagingChanges": 0
+        },
+        {
+          "@id": "cupim:run-20261119T202836Z",
+          "@type": [
+            "prov:Activity",
+            "cupim:MonitoringRun"
+          ],
+          "prov:startedAtTime": {
+            "@value": "2026-11-19T20:28:36.453397+00:00",
+            "@type": "xsd:dateTime"
+          },
+          "prov:endedAtTime": {
+            "@value": "2026-11-19T20:28:36.456669+00:00",
+            "@type": "xsd:dateTime"
+          },
+          "prov:wasAssociatedWith": {
+            "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-recife@700a23c"
+          },
+          "prov:used": {
+            "@id": "https://dados.recife.pe.gov.br/api/3/action/package_show?id=75869ab7-ccce-40d6-aed6-4afca4c8cc82"
+          }
+        },
+        {
+          "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-recife@700a23c",
+          "@type": [
+            "prov:Agent",
+            "prov:SoftwareAgent"
+          ],
+          "rdfs:label": "5L-TEP Toolkit v1.1.0 (Layer 4 — Observability & Provenance)",
+          "cupim:repositoryUrl": "https://github.com/lsp3cesarschool/5ltep-layer4-recife",
+          "cupim:commitSha": "700a23c4064962ab8339ecdaa89f9d445eab0497"
+        },
+        {
+          "@id": "https://dados.recife.pe.gov.br/organization/secretaria-de-planejamento-urbano",
+          "@type": [
+            "prov:Agent",
+            "cupim:DataCustodian"
+          ],
+          "rdfs:label": "secretaria-de-planejamento-urbano",
+          "cupim:portalUrl": "https://dados.recife.pe.gov.br"
+        }
+      ]
     }
   ]
 }
