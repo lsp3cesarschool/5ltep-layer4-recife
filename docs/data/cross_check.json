@@ -1,11 +1,11 @@
 {
- "status": "PENDING",
- "checked_at": "2026-11-20T12:01:35.687123+00:00",
- "duration_seconds": 214.05,
+ "status": "IN_SYNC",
+ "checked_at": "2026-11-21T11:34:53.394627+00:00",
+ "duration_seconds": 268.96,
  "portal_url": "https://dados.recife.pe.gov.br",
- "snapshot_run_id": "20261120T070007Z",
- "snapshot_file": "snapshot_20261119T202726Z.json",
- "snapshot_age_hours": 5.02,
+ "snapshot_run_id": "20261121T065606Z",
+ "snapshot_file": "snapshot_20261120T195956Z.json",
+ "snapshot_age_hours": 4.65,
  "monitor_tolerance_hours": 7,
  "coverage_ratio": 1.0,
  "min_coverage_ratio": 0.9,
@@ -16,17 +16,8 @@
   "added": [],
   "removed": []
  },
- "modified": [
-  {
-   "id": "c68396ad-ad0f-4255-a57a-84c97054dd37",
-   "name": "estoque-dos-medicamentos-nas-farmacias-da-rede-municipal-de-saude",
-   "snapshot_metadata_modified": "2026-11-19T10:02:52.795218",
-   "live_metadata_modified": "2026-11-20T10:02:31.969298",
-   "snapshot_num_resources": 9,
-   "live_num_resources": 9
-  }
- ],
+ "modified": [],
  "errors": [],
- "sentence": "⏳ **Cross-check pending** — last verified 2026-11-20 12:01 UTC. 1 divergence(s) detected; next monitor run will reconcile (snapshot age 5.0h ≤ 7h tolerance).",
- "sentence_pt": "⏳ **Verificação cruzada pendente** — última verificação em 2026-11-20 12:01 UTC. 1 divergência(s) detectada(s); a próxima execução do monitoramento vai reconciliá-las (snapshot com 5,0 h ≤ tolerância de 7 h)."
+ "sentence": "✅ **Cross-check passing** — last verified 2026-11-21 11:34 UTC. All 223 reachable datasets in sync with the live portal (dados.recife.pe.gov.br); latest snapshot is 4.6h old.",
+ "sentence_pt": "✅ **Verificação cruzada aprovada** — última verificação em 2026-11-21 11:34 UTC. Todos os 223 conjuntos de dados acessíveis estão sincronizados com o portal ao vivo (dados.recife.pe.gov.br); o snapshot mais recente tem 4,6 h."
 }
