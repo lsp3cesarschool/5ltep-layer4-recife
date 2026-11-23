@@ -7,9 +7,9 @@ first monitoring cycle that saw the change).
 
 - **Monitored since:** 2026-10-02
 - **Datasets in the latest snapshot:** 223
-- **Changes recorded as PROV events:** 55 (10 critical)
+- **Changes recorded as PROV events:** 58 (11 critical)
 - **New datasets:** 3
-- **Last change detected:** 2026-11-20 19:59 UTC
+- **Last change detected:** 2026-11-23 23:46 UTC
 
 Types: `CONTENT_MOD` (content changed with a new timestamp), `SCHEMA_DRIFT`
 (resources added, removed, renamed or re-formatted; critical), `RETRO_ALTER`
@@ -20,13 +20,16 @@ Types: `CONTENT_MOD` (content changed with a new timestamp), `SCHEMA_DRIFT`
 
 | Month | PROV events | Critical | New datasets |
 |---|---:|---:|---:|
-| 2026-11 | 36 | 7 | 2 |
+| 2026-11 | 39 | 8 | 2 |
 | 2026-10 | 19 | 3 | 1 |
 
 ## Latest changes
 
 | Detected (UTC) | Dataset | Type | What changed | Provenance |
 |---|---|---|---|---|
+| 2026-11-23 23:46 | [Postes- iluminação pública do Recife](https://dados.recife.pe.gov.br/dataset/postes-iluminacao-publica-do-recife) | `SCHEMA_DRIFT` | 4 resource(s) added; license title changed | [log](provenance_logs/cb834849-e07e-43a1-a101-204b599aaebb.jsonld) |
+| 2026-11-23 23:46 | [Estoque dos medicamentos nas farmácias da Rede Municipal de Saúde](https://dados.recife.pe.gov.br/dataset/estoque-dos-medicamentos-nas-farmacias-da-rede-municipal-de-saude) | `CONTENT_MOD` | File date updated | [log](provenance_logs/c68396ad-ad0f-4255-a57a-84c97054dd37.jsonld) |
+| 2026-11-23 23:46 | [Diário Oficial](https://dados.recife.pe.gov.br/dataset/diario-oficial) | `CONTENT_MOD` | File size updated; file date updated | [log](provenance_logs/12578535-6cf0-4097-94fa-ff6ec3d51988.jsonld) |
 | 2026-11-20 19:59 | [Estoque dos medicamentos nas farmácias da Rede Municipal de Saúde](https://dados.recife.pe.gov.br/dataset/estoque-dos-medicamentos-nas-farmacias-da-rede-municipal-de-saude) | `CONTENT_MOD` | File date updated | [log](provenance_logs/c68396ad-ad0f-4255-a57a-84c97054dd37.jsonld) |
 | 2026-11-19 20:27 | [Licenciamento Urbanístico](https://dados.recife.pe.gov.br/dataset/licenciamento-urbanistico) | `CONTENT_MOD` | File size updated; file date updated; license title changed | [log](provenance_logs/f79dbcdf-ec99-4f4c-9b84-b33175c35528.jsonld) |
 | 2026-11-19 20:27 | [Licenciamento Sanitário](https://dados.recife.pe.gov.br/dataset/licenciamento-sanitario) | `CONTENT_MOD` | File size updated; file date updated; license title changed | [log](provenance_logs/8535916b-588f-4006-bb1a-5d9c587a92d7.jsonld) |
