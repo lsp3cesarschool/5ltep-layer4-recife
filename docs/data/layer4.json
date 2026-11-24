@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-24T09:44:22.376761+00:00",
+ "generated_at": "2026-11-24T22:21:34.728926+00:00",
  "toolkit_version": "1.1.0",
  "repository": "lsp3cesarschool/5ltep-layer4-recife",
  "portal": {
@@ -10,8 +10,8 @@
  },
  "monitoring": {
   "since": "2026-10-02T12:57:26+00:00",
-  "last_cycle": "2026-11-24T09:43:06+00:00",
-  "cycles": 116,
+  "last_cycle": "2026-11-24T22:18:43+00:00",
+  "cycles": 117,
   "cycles_by_day": {
    "2026-10-02": 4,
    "2026-10-03": 4,
@@ -55,11 +55,11 @@
    "2026-11-21": 2,
    "2026-11-22": 2,
    "2026-11-23": 2,
-   "2026-11-24": 1
+   "2026-11-24": 2
   },
-  "cycles_30d": 47,
+  "cycles_30d": 48,
   "max_gap_hours_30d": 27.2,
-  "distinct_snapshots": 34,
+  "distinct_snapshots": 35,
   "failures": [
    {
     "run_id": 45291674413,
@@ -479,21 +479,63 @@
  },
  "totals": {
   "datasets": 223,
-  "resources": 1634,
+  "resources": 1635,
   "organizations": 32,
-  "prov_events": 58,
-  "prov_records": 58,
-  "critical": 11,
+  "prov_events": 61,
+  "prov_records": 61,
+  "critical": 13,
   "datasets_changed": 14,
   "by_type": {
-   "SCHEMA_DRIFT": 11,
-   "CONTENT_MOD": 47,
+   "SCHEMA_DRIFT": 13,
+   "CONTENT_MOD": 48,
    "NEW": 3,
    "REMOVED": 3,
    "NOT_FINGERPRINTED": 13
   }
  },
  "events": [
+  {
+   "when": "2026-11-24T22:18:43+00:00",
+   "type": "SCHEMA_DRIFT",
+   "severity": "CRITICAL",
+   "dataset_id": "cb834849-e07e-43a1-a101-204b599aaebb",
+   "name": "postes-iluminacao-publica-do-recife",
+   "title": "Postes- iluminação pública do Recife",
+   "summary": "Metadata timestamp updated",
+   "summary_pt": "Data dos metadados atualizada",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": "cb834849-e07e-43a1-a101-204b599aaebb.jsonld"
+  },
+  {
+   "when": "2026-11-24T22:18:43+00:00",
+   "type": "CONTENT_MOD",
+   "severity": "WARNING",
+   "dataset_id": "c68396ad-ad0f-4255-a57a-84c97054dd37",
+   "name": "estoque-dos-medicamentos-nas-farmacias-da-rede-municipal-de-saude",
+   "title": "Estoque dos medicamentos nas farmácias da Rede Municipal de Saúde",
+   "summary": "File date updated",
+   "summary_pt": "Data do arquivo atualizada",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": "c68396ad-ad0f-4255-a57a-84c97054dd37.jsonld"
+  },
+  {
+   "when": "2026-11-24T22:18:43+00:00",
+   "type": "SCHEMA_DRIFT",
+   "severity": "CRITICAL",
+   "dataset_id": "12578535-6cf0-4097-94fa-ff6ec3d51988",
+   "name": "diario-oficial",
+   "title": "Diário Oficial",
+   "summary": "2 resource(s) added; 1 resource(s) removed; 2 resource URL(s) changed; resource renamed; file size updated; file date updated; resource descriptions edited",
+   "summary_pt": "2 recurso(s) adicionado(s); 1 recurso(s) removido(s); 2 URL(s) de recurso alterada(s); recurso renomeado; tamanho do arquivo atualizado; data do arquivo atualizada; descrições dos recursos editadas",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": "12578535-6cf0-4097-94fa-ff6ec3d51988.jsonld"
+  },
   {
    "when": "2026-11-23T23:46:37+00:00",
    "type": "SCHEMA_DRIFT",
@@ -1598,11 +1640,11 @@
    "title": "Postes- iluminação pública do Recife",
    "organization": "Empresa de Manutenção e Limpeza Urbana - EMLURB",
    "resources": 9,
-   "metadata_modified": "2026-11-23T20:21:28.952097",
-   "prov_records": 1,
+   "metadata_modified": "2026-11-24T12:22:15.842605",
+   "prov_records": 2,
    "prov_log": "cb834849-e07e-43a1-a101-204b599aaebb.jsonld",
-   "changes": 1,
-   "last_change": "2026-11-23T23:46:37+00:00",
+   "changes": 2,
+   "last_change": "2026-11-24T22:18:43+00:00",
    "last_type": "SCHEMA_DRIFT"
   },
   {
@@ -1611,11 +1653,11 @@
    "title": "Estoque dos medicamentos nas farmácias da Rede Municipal de Saúde",
    "organization": "Secretaria de Saúde",
    "resources": 9,
-   "metadata_modified": "2026-11-23T10:03:06.646939",
-   "prov_records": 18,
+   "metadata_modified": "2026-11-24T10:02:49.763005",
+   "prov_records": 19,
    "prov_log": "c68396ad-ad0f-4255-a57a-84c97054dd37.jsonld",
-   "changes": 18,
-   "last_change": "2026-11-23T23:46:37+00:00",
+   "changes": 19,
+   "last_change": "2026-11-24T22:18:43+00:00",
    "last_type": "CONTENT_MOD"
   },
   {
@@ -1623,13 +1665,13 @@
    "name": "diario-oficial",
    "title": "Diário Oficial",
    "organization": "Secretaria de Governo e Participação Social",
-   "resources": 35,
-   "metadata_modified": "2026-11-23T15:34:23.729109",
-   "prov_records": 9,
+   "resources": 36,
+   "metadata_modified": "2026-11-24T22:18:14.578894",
+   "prov_records": 10,
    "prov_log": "12578535-6cf0-4097-94fa-ff6ec3d51988.jsonld",
-   "changes": 9,
-   "last_change": "2026-11-23T23:46:37+00:00",
-   "last_type": "CONTENT_MOD"
+   "changes": 10,
+   "last_change": "2026-11-24T22:18:43+00:00",
+   "last_type": "SCHEMA_DRIFT"
   },
   {
    "id": "f79dbcdf-ec99-4f4c-9b84-b33175c35528",
@@ -4493,7 +4535,7 @@
   }
  ],
  "hosts_now": {
-  "dados.recife.pe.gov.br:443": 1634
+  "dados.recife.pe.gov.br:443": 1635
  },
  "urls_without_host": [],
  "relocations": [

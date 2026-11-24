@@ -97,6 +97,92 @@
           "cupim:portalUrl": "https://dados.recife.pe.gov.br"
         }
       ]
+    },
+    {
+      "@context": {
+        "prov": "http://www.w3.org/ns/prov#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "cupim": "https://5ltep.example.org/ontology#",
+        "ckan": "https://ckan.org/schema#",
+        "portal": "https://dados.recife.pe.gov.br/"
+      },
+      "@graph": [
+        {
+          "@id": "https://dados.recife.pe.gov.br/dataset/cb834849-e07e-43a1-a101-204b599aaebb#56e16867af4b",
+          "@type": [
+            "prov:Entity",
+            "cupim:DatasetSnapshot"
+          ],
+          "prov:wasGeneratedBy": {
+            "@id": "cupim:run-20261124T222130Z"
+          },
+          "cupim:changeType": "SCHEMA_DRIFT",
+          "cupim:severity": "CRITICAL",
+          "cupim:datasetId": "cb834849-e07e-43a1-a101-204b599aaebb",
+          "cupim:contentHash": "56e16867af4b5f90831a69b5d7e39fa15bba63c1f81aeb3fdfbe397ebe1351b8",
+          "cupim:detectedAt": {
+            "@value": "2026-11-24T22:21:30.799661+00:00",
+            "@type": "xsd:dateTime"
+          },
+          "prov:wasAttributedTo": {
+            "@id": "https://dados.recife.pe.gov.br/organization/empresa-de-manutencao-e-limpeza-urbana-emlurb"
+          },
+          "prov:wasDerivedFrom": {
+            "@id": "https://dados.recife.pe.gov.br/dataset/cb834849-e07e-43a1-a101-204b599aaebb#c0b6d2507578"
+          },
+          "cupim:changeSummary": "Metadata timestamp updated",
+          "cupim:changedFields": [
+            "metadata_modified"
+          ],
+          "cupim:fieldsOutsideFingerprint": [
+            "resource.position"
+          ],
+          "cupim:resourceUrlChanges": 0,
+          "cupim:hostMoves": 0,
+          "cupim:packagingChanges": 0
+        },
+        {
+          "@id": "cupim:run-20261124T222130Z",
+          "@type": [
+            "prov:Activity",
+            "cupim:MonitoringRun"
+          ],
+          "prov:startedAtTime": {
+            "@value": "2026-11-24T22:21:30.805699+00:00",
+            "@type": "xsd:dateTime"
+          },
+          "prov:endedAtTime": {
+            "@value": "2026-11-24T22:21:30.809512+00:00",
+            "@type": "xsd:dateTime"
+          },
+          "prov:wasAssociatedWith": {
+            "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-recife@3b40e73"
+          },
+          "prov:used": {
+            "@id": "https://dados.recife.pe.gov.br/api/3/action/package_show?id=cb834849-e07e-43a1-a101-204b599aaebb"
+          }
+        },
+        {
+          "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-recife@3b40e73",
+          "@type": [
+            "prov:Agent",
+            "prov:SoftwareAgent"
+          ],
+          "rdfs:label": "5L-TEP Toolkit v1.1.0 (Layer 4 — Observability & Provenance)",
+          "cupim:repositoryUrl": "https://github.com/lsp3cesarschool/5ltep-layer4-recife",
+          "cupim:commitSha": "3b40e737f732876f180df084221741f46cc7c235"
+        },
+        {
+          "@id": "https://dados.recife.pe.gov.br/organization/empresa-de-manutencao-e-limpeza-urbana-emlurb",
+          "@type": [
+            "prov:Agent",
+            "cupim:DataCustodian"
+          ],
+          "rdfs:label": "empresa-de-manutencao-e-limpeza-urbana-emlurb",
+          "cupim:portalUrl": "https://dados.recife.pe.gov.br"
+        }
+      ]
     }
   ]
 }
