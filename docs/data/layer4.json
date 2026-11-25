@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-24T22:21:34.728926+00:00",
+ "generated_at": "2026-11-25T08:19:40.447757+00:00",
  "toolkit_version": "1.1.0",
  "repository": "lsp3cesarschool/5ltep-layer4-recife",
  "portal": {
@@ -10,8 +10,8 @@
  },
  "monitoring": {
   "since": "2026-10-02T12:57:26+00:00",
-  "last_cycle": "2026-11-24T22:18:43+00:00",
-  "cycles": 117,
+  "last_cycle": "2026-11-25T08:18:12+00:00",
+  "cycles": 118,
   "cycles_by_day": {
    "2026-10-02": 4,
    "2026-10-03": 4,
@@ -55,12 +55,21 @@
    "2026-11-21": 2,
    "2026-11-22": 2,
    "2026-11-23": 2,
-   "2026-11-24": 2
+   "2026-11-24": 2,
+   "2026-11-25": 1
   },
-  "cycles_30d": 48,
+  "cycles_30d": 49,
   "max_gap_hours_30d": 27.2,
-  "distinct_snapshots": 35,
+  "distinct_snapshots": 36,
   "failures": [
+   {
+    "run_id": 45499679313,
+    "when": "2026-11-24T22:18:28+00:00",
+    "category": "unknown",
+    "detail": "step: Alert on CRITICAL schema change (SCHEMA_DRIFT / RETRO_ALTER)",
+    "step": "Alert on CRITICAL schema change (SCHEMA_DRIFT / RETRO_ALTER)",
+    "source": "actions"
+   },
    {
     "run_id": 45291674413,
     "when": "2026-11-23T23:46:27+00:00",
@@ -472,7 +481,7 @@
   ],
   "failures_by_category": {
    "network": 40,
-   "unknown": 10,
+   "unknown": 11,
    "portal_down": 1
   },
   "unread_last_cycle": []
@@ -481,19 +490,33 @@
   "datasets": 223,
   "resources": 1635,
   "organizations": 32,
-  "prov_events": 61,
-  "prov_records": 61,
+  "prov_events": 62,
+  "prov_records": 62,
   "critical": 13,
   "datasets_changed": 14,
   "by_type": {
+   "CONTENT_MOD": 49,
    "SCHEMA_DRIFT": 13,
-   "CONTENT_MOD": 48,
    "NEW": 3,
    "REMOVED": 3,
    "NOT_FINGERPRINTED": 13
   }
  },
  "events": [
+  {
+   "when": "2026-11-25T08:18:12+00:00",
+   "type": "CONTENT_MOD",
+   "severity": "WARNING",
+   "dataset_id": "12578535-6cf0-4097-94fa-ff6ec3d51988",
+   "name": "diario-oficial",
+   "title": "Diário Oficial",
+   "summary": "File size updated; file date updated",
+   "summary_pt": "Tamanho do arquivo atualizado; data do arquivo atualizada",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": "12578535-6cf0-4097-94fa-ff6ec3d51988.jsonld"
+  },
   {
    "when": "2026-11-24T22:18:43+00:00",
    "type": "SCHEMA_DRIFT",
@@ -1635,6 +1658,19 @@
  ],
  "datasets": [
   {
+   "id": "12578535-6cf0-4097-94fa-ff6ec3d51988",
+   "name": "diario-oficial",
+   "title": "Diário Oficial",
+   "organization": "Secretaria de Governo e Participação Social",
+   "resources": 36,
+   "metadata_modified": "2026-11-24T22:31:02.122270",
+   "prov_records": 11,
+   "prov_log": "12578535-6cf0-4097-94fa-ff6ec3d51988.jsonld",
+   "changes": 11,
+   "last_change": "2026-11-25T08:18:12+00:00",
+   "last_type": "CONTENT_MOD"
+  },
+  {
    "id": "cb834849-e07e-43a1-a101-204b599aaebb",
    "name": "postes-iluminacao-publica-do-recife",
    "title": "Postes- iluminação pública do Recife",
@@ -1659,19 +1695,6 @@
    "changes": 19,
    "last_change": "2026-11-24T22:18:43+00:00",
    "last_type": "CONTENT_MOD"
-  },
-  {
-   "id": "12578535-6cf0-4097-94fa-ff6ec3d51988",
-   "name": "diario-oficial",
-   "title": "Diário Oficial",
-   "organization": "Secretaria de Governo e Participação Social",
-   "resources": 36,
-   "metadata_modified": "2026-11-24T22:18:14.578894",
-   "prov_records": 10,
-   "prov_log": "12578535-6cf0-4097-94fa-ff6ec3d51988.jsonld",
-   "changes": 10,
-   "last_change": "2026-11-24T22:18:43+00:00",
-   "last_type": "SCHEMA_DRIFT"
   },
   {
    "id": "f79dbcdf-ec99-4f4c-9b84-b33175c35528",
