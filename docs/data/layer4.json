@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-25T08:19:40.447757+00:00",
+ "generated_at": "2026-11-25T21:36:59.208529+00:00",
  "toolkit_version": "1.1.0",
  "repository": "lsp3cesarschool/5ltep-layer4-recife",
  "portal": {
@@ -10,8 +10,8 @@
  },
  "monitoring": {
   "since": "2026-10-02T12:57:26+00:00",
-  "last_cycle": "2026-11-25T08:18:12+00:00",
-  "cycles": 118,
+  "last_cycle": "2026-11-25T21:35:14+00:00",
+  "cycles": 119,
   "cycles_by_day": {
    "2026-10-02": 4,
    "2026-10-03": 4,
@@ -56,11 +56,11 @@
    "2026-11-22": 2,
    "2026-11-23": 2,
    "2026-11-24": 2,
-   "2026-11-25": 1
+   "2026-11-25": 2
   },
-  "cycles_30d": 49,
+  "cycles_30d": 50,
   "max_gap_hours_30d": 27.2,
-  "distinct_snapshots": 36,
+  "distinct_snapshots": 37,
   "failures": [
    {
     "run_id": 45499679313,
@@ -490,12 +490,12 @@
   "datasets": 223,
   "resources": 1635,
   "organizations": 32,
-  "prov_events": 62,
-  "prov_records": 62,
+  "prov_events": 64,
+  "prov_records": 64,
   "critical": 13,
   "datasets_changed": 14,
   "by_type": {
-   "CONTENT_MOD": 49,
+   "CONTENT_MOD": 51,
    "SCHEMA_DRIFT": 13,
    "NEW": 3,
    "REMOVED": 3,
@@ -503,6 +503,34 @@
   }
  },
  "events": [
+  {
+   "when": "2026-11-25T21:35:14+00:00",
+   "type": "CONTENT_MOD",
+   "severity": "WARNING",
+   "dataset_id": "c68396ad-ad0f-4255-a57a-84c97054dd37",
+   "name": "estoque-dos-medicamentos-nas-farmacias-da-rede-municipal-de-saude",
+   "title": "Estoque dos medicamentos nas farmácias da Rede Municipal de Saúde",
+   "summary": "File date updated",
+   "summary_pt": "Data do arquivo atualizada",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": "c68396ad-ad0f-4255-a57a-84c97054dd37.jsonld"
+  },
+  {
+   "when": "2026-11-25T21:35:14+00:00",
+   "type": "CONTENT_MOD",
+   "severity": "WARNING",
+   "dataset_id": "12578535-6cf0-4097-94fa-ff6ec3d51988",
+   "name": "diario-oficial",
+   "title": "Diário Oficial",
+   "summary": "File size updated; file date updated",
+   "summary_pt": "Tamanho do arquivo atualizado; data do arquivo atualizada",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": "12578535-6cf0-4097-94fa-ff6ec3d51988.jsonld"
+  },
   {
    "when": "2026-11-25T08:18:12+00:00",
    "type": "CONTENT_MOD",
@@ -1658,16 +1686,29 @@
  ],
  "datasets": [
   {
+   "id": "c68396ad-ad0f-4255-a57a-84c97054dd37",
+   "name": "estoque-dos-medicamentos-nas-farmacias-da-rede-municipal-de-saude",
+   "title": "Estoque dos medicamentos nas farmácias da Rede Municipal de Saúde",
+   "organization": "Secretaria de Saúde",
+   "resources": 9,
+   "metadata_modified": "2026-11-25T10:02:44.845371",
+   "prov_records": 20,
+   "prov_log": "c68396ad-ad0f-4255-a57a-84c97054dd37.jsonld",
+   "changes": 20,
+   "last_change": "2026-11-25T21:35:14+00:00",
+   "last_type": "CONTENT_MOD"
+  },
+  {
    "id": "12578535-6cf0-4097-94fa-ff6ec3d51988",
    "name": "diario-oficial",
    "title": "Diário Oficial",
    "organization": "Secretaria de Governo e Participação Social",
    "resources": 36,
-   "metadata_modified": "2026-11-24T22:31:02.122270",
-   "prov_records": 11,
+   "metadata_modified": "2026-11-25T16:18:26.686470",
+   "prov_records": 12,
    "prov_log": "12578535-6cf0-4097-94fa-ff6ec3d51988.jsonld",
-   "changes": 11,
-   "last_change": "2026-11-25T08:18:12+00:00",
+   "changes": 12,
+   "last_change": "2026-11-25T21:35:14+00:00",
    "last_type": "CONTENT_MOD"
   },
   {
@@ -1682,19 +1723,6 @@
    "changes": 2,
    "last_change": "2026-11-24T22:18:43+00:00",
    "last_type": "SCHEMA_DRIFT"
-  },
-  {
-   "id": "c68396ad-ad0f-4255-a57a-84c97054dd37",
-   "name": "estoque-dos-medicamentos-nas-farmacias-da-rede-municipal-de-saude",
-   "title": "Estoque dos medicamentos nas farmácias da Rede Municipal de Saúde",
-   "organization": "Secretaria de Saúde",
-   "resources": 9,
-   "metadata_modified": "2026-11-24T10:02:49.763005",
-   "prov_records": 19,
-   "prov_log": "c68396ad-ad0f-4255-a57a-84c97054dd37.jsonld",
-   "changes": 19,
-   "last_change": "2026-11-24T22:18:43+00:00",
-   "last_type": "CONTENT_MOD"
   },
   {
    "id": "f79dbcdf-ec99-4f4c-9b84-b33175c35528",
